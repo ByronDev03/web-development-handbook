@@ -32,22 +32,27 @@
 | ![alt text](imgs/mit.png)               | Material Icon Theme 5.27.0                                     | Philipp Kief           |
 |                                         |                                                                |                        |
 | ![alt text](imgs/monokai.png)           | Monokai Pro 2.0.8	                                           | monokai                |
-|                                         | Night Owl 2.1.1	                                               | sarah.drasner          |              
-|                                         | Prettier - Code formatter 11.0.0	                           | Prettier               |                        
-|                                         | Prettify JSON 0.0.3	                                           | Mohsen Azimi           |                        
+| ![alt text](imgs/nightowl.png)          | Night Owl 2.1.1	                                               | sarah.drasner          |              
+| ![alt text](imgs/prettier.png)          | Prettier - Code formatter 11.0.0	                           | Prettier               |                        
+| ![alt text](imgs/prettify.png)          | Prettify JSON 0.0.3	                                           | Mohsen Azimi           |                        
 |                                         |                                                                |                        | 
 | ![alt text](imgs/python.png)            | Pylance 2025.8.3	                                           | Microsoft              |                        
 | ![alt text](imgs/python.png)            | Python 2025.16.0                                               | Microsoft              |
 | ![alt text](imgs/python.png)            | Python Debugger 2025.14.0	                                   | Microsoft              |
 | ![alt text](imgs/python.png)	          | Python Environments 1.10.0	                                   | Microsoft              |
 |                                         |                                                                |                        |
-|                                         | SonarQube for IDE 4.31.0	                                   | SonarSource            |                        
+| ![alt text](imgs/sonarqube.png)         | SonarQube for IDE 4.31.0	                                   | SonarSource            |                        
 | ![alt text](imgs/spanish.png)           | Spanish Language Pack for Visual Studio Code 1.105.2025100809  | Microsoft              |
 | ![alt text](imgs/symbols.png)           | Symbols 0.0.24	                                               | Miguel Solorio         |
 |                                         |                                                                |                        |
 |                                         |                                                                |                        |
-|                                         | Vibrancy Continued 1.1.60                                      | illixion               |                        
+| ![alt text](imgs/vibrancy.png)          | Vibrancy Continued 1.1.60                                      | illixion               |                        
 | ![alt text](imgs/vscode-icons.png)      | vscode-icons 12.14.0	                                       | VSCode Icons Team      |
 |                                         |                                                                |                        |
 |                                         |                                                                |                        |
 |                                         |                                                                |                        |  
+
+
+
+
+
