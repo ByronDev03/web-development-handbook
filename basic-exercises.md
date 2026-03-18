@@ -1,10 +1,55 @@
 EJERCICIOS BASICOS EN C++
 
-1. Crear un algoritmo que lea 3 números e imprima el doble y la mitad
-de los mismos.
+## Ejercicio 1. 
+Crear un algoritmo que lea 3 números e imprima el doble y la mitad de los mismos.
 
-2. Crear un algoritmo que lea desde teclado 3 números e imprima en
-pantalla el producto de los números ingresados.
+<details>
+<summary>Código en C++</summary>
+
+```
+//Crear un algoritmo que lea 3 números e imprima el doble y la mitad de los mismos.
+#include<iostream>
+#include<windows.h>
+#include<stdlib.h>
+using namespace std;
+int num1 = 0, num2 = 0, num3 = 0;
+int suma = 0, doble = 0;
+float mitad = 0;
+void resultados()
+{
+	system("cls");
+	cout<<"\t---RESULTADOS OBTENIDOS---"<<endl;
+	cout<<"SUMA: "<<suma<<endl;
+	cout<<"DOBLE: "<<doble<<endl;
+	cout<<"MITAD: "<<mitad<<endl;
+}
+void DobMit()
+{
+	cout<<"\t---PROGRAMA QUE CALCULA EL DOBLE Y LA MITAD DE 3 NUMEROS INGRESADOS---"<<endl;
+	cout<<"Ingrese el numero 1: ";
+	cin>>num1;
+	cout<<"Ingrese el numero 2: ";
+	cin>>num2;
+	cout<<"Ingrese el numero 3: ";
+	cin>>num3;
+	
+	suma = num1 + num2 + num3;
+	doble = suma * 2;
+	mitad = doble / 2;
+	resultados();
+}
+int main()
+{
+	system("color 0A");
+	DobMit();
+	return 0;
+}
+```
+</details>
+
+
+## Ejercicio 2. 
+Crear un algoritmo que lea desde teclado 3 números e imprima en pantalla el producto de los números ingresados.
 
 3. Crear un algoritmo que calcule el cuadrado de un número ingresado
 desde el teclado.
