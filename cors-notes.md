@@ -1,5 +1,7 @@
 <h1 align="center">CROSS-ORIGIN RESOURCE SHARING (CORS)</h1>
 
+--- 
+
 ## ¿Qué es?
 CORS significa **Cross-Origin Resource Sharing** (Compartición de Recursos entre Orígenes Cruzados).
 Es un **mecanismo de seguridad** implementado por los navegadores para controlar qué recursos (APIs, imágenes, scripts, etc.) pueden ser solicitados desde **otro dominio diferente** al del sitio que hace la petición.

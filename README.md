@@ -9,6 +9,8 @@
 
 - [Mis extensiones para Visual Studio Code](my-extensions-for-vscode.md)
 
+- [Mis Herramientas de Trabajo Instaladas](my-softwares.md)
+
 - [🌐 Métodos de Petición HTTP](http-methods-notes.md)
     - [¿Qué son?](http-methods-notes.md#qué-son)
     - [Métodos HTTP principales](http-methods-notes.md#métodos-http-principales)
