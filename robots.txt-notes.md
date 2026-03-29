@@ -18,7 +18,7 @@ No bloquea el acceso real a la información (si alguien tiene el link directo la
 
 ---
 
-## Ejemplo de robots.txt
+## Ejemplo práctico
 #Permitir que todos los robots accedan a todo
 user_agent: *
 Disallow: 

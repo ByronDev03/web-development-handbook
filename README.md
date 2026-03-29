@@ -94,3 +94,9 @@
 - [ Node.js](node.js-notes.md)
 
 - [🤖 robots.txt](robots.txt-notes.md)
+  - [¿Qué es?](robots.txt-notes.md#qué-es)
+  - [¿Cómo funciona?](robots.txt-notes.md#cómo-funciona)
+  - [Ejemplo práctico](robots.txt-notes.md#ejemplo-práctico) 
+  - [Cosas importantes](robots.txt-notes.md#cosas-importantes)
+  - [Uso práctico](robots.txt-notes.md#uso-práctico)
+  - [En resumen](robots.txt-notes.md#en-resumen)  
