@@ -37,10 +37,10 @@ No instalar Node.js directamente desde nodejs.org, porque puede interferir con n
 **EN RESUMEN:**
 Node.js oficial + NVM al mismo tiempo = choques y confusión.
 1. **Ver qué versiones de Node.js hay disponibles online**
-   `nvm list available`
+      `nvm list available`
 
 2. **Instalar una versión específica de Node.js**
-   `nvm install <versión>`
+      `nvm install <versión>`
       - **Ejemplo:** *nvm install 22.19.0*
 
 3. **Activar (usar) una versión instalada**

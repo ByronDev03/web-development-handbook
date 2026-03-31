@@ -70,12 +70,13 @@ Y verás el mensaje:
 ---
 
 ## ¿Para qué se usa Node.js?
-Uso	Ejemplo
-- APIs y backend web	Express, NestJS, Fastify
-- Aplicaciones en tiempo real	Chats, juegos, notificaciones (con Socket.IO)
-- Herramientas de desarrollo	Webpack, ESLint, npm
-- Bots y automatización	Bots de Discord, Telegram, etc.
-- Apps multiplataforma	Con frameworks como Electron o React Native
+| Uso                               | Ejemplo                                       |
+| --------------------------------- | --------------------------------------------- |
+| **APIs y backend web**            | Express, NestJS, Fastify                      |
+| **Aplicaciones en tiempo real**   | Chats, juegos, notificaciones (con Socket.IO) |
+| **Herramientas de desarrollo**    | Webpack, ESLint, npm                          |
+| **Bots y automatización**         | Bots de Discord, Telegram, etc.               |
+| **Apps multiplataforma**          | Con frameworks como Electron o React Native   |
 
 ---
 
