@@ -84,7 +84,7 @@ Y verás el mensaje:
 - Usa el mismo lenguaje (JavaScript) en frontend y backend.
 - Muy rápido para aplicaciones que manejan muchas conexiones.
 - Gran comunidad y soporte.
--npm te da acceso a millones de paquetes.
+- npm te da acceso a millones de paquetes.
 
 ---
 
@@ -196,31 +196,31 @@ Gracias al Event Loop:
 
 ---
 
-Este diagrama muestra cómo funciona el Event Loop en Node.js, que es el corazón de su sistema asíncrono. 
+## Diagrama del funcionamiento de Even Loop en Node,js
 
 <div align="center">
   <img src="/imgs/even-loop.png" width="600" alt="Even Loop" />
 </div>
 
-## 1. Call Stack (Pila de llamadas)
+**1. Call Stack (Pila de llamadas)**
 Aquí se ejecuta el código principal de JavaScript, **de arriba hacia abajo.** Cada vez que llamas una función, se “apila” aquí. Cuando termina, se “desapila”.
 ```
 Si algo toma mucho tiempo (como una petición HTTP), se delega fuera del stack para no bloquearlo.
 ```
 
-## 2. Event Table (Tabla de eventos)
+**2. Event Table (Tabla de eventos)**
 Cuando hay tareas que tardan (por ejemplo, `setTimeout`, lecturas de archivos o consultas a una API), Node.js las manda a esta “mesa de trabajo”.
 ```
 Aquí los eventos esperan a que el sistema operativo los complete.
 ```
 
-## 3. Callback Queue (Cola de callbacks)
+**3. Callback Queue (Cola de callbacks)**
 Una vez que una tarea asíncrona termina, su función callback **pasa a esta cola.**
 ```
 Pero aún no se ejecuta, solo espera su turno.
 ```
 
-## 4. Event Loop
+**4. Event Loop**
 El *Event Loop* es el encargado de revisar constantemente:
 ```
 “¿Está libre el Call Stack?”
@@ -230,7 +230,7 @@ El *Event Loop* es el encargado de revisar constantemente:
 
 Así Node.js puede hacer muchas cosas al mismo tiempo sin bloquear el programa 
 
-## Ejemplo rápido:
+**Ejemplo rápido:**
 ```JavaScript
 console.log('1');
 setTimeout(() => console.log('2'), 1000);
@@ -243,7 +243,9 @@ console.log('3');
 - Cuando pasa 1 segundo, el callback (`console.log('2')`) vuelve a la **Callback Queue**
 - El **Event Loop** lo envía al **Call Stack** → muestra `2`
 
-Resultado final en consola:
+**Resultado final en consola:**
+```
 1
 3
 2
+```
