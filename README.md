@@ -91,7 +91,7 @@
   - [¿Cómo eliminar un proyecto en Angular para Windows?](angular-notes.md#cómo-eliminar-un-proyecto-en-angular-en-windows)
   - [Comandos básicos de *npm*](angular-notes.md#comandos-básicos-de-npm)
 
-- [ Node.js](node.js-notes.md)
+- [🟢 Node.js](node.js-notes.md)
 
 - [🤖 robots.txt](robots.txt-notes.md)
   - [¿Qué es?](robots.txt-notes.md#qué-es)

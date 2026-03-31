@@ -113,9 +113,11 @@ console.log("Fin");
 ```
 
 **Salida en consola:**
+```
 Inicio
 Fin
 Tarea con retardo
+```
 
 ¿Por qué “Tarea con retardo” se ejecuta al final, si aparece antes en el código?
 
@@ -127,21 +129,29 @@ entonces la **manda a otro lugar (la cola de tareas) y sigue adelante con el res
 ## ¿Cómo funciona el flujo internamente?
 1. **Call Stack (pila de llamadas):**
     Donde Node ejecuta el código JavaScript línea por línea.
+
 2. **Event Table:**
     Donde se registran las tareas asíncronas (como timers, lecturas de archivos, peticiones HTTP, etc.).
+
 3. **Callback Queue (cola de espera):**
     Cuando una tarea asíncrona termina, su “callback” se mueve aquí esperando ser ejecutado.
+
 4. **Event Loop:**
     Es el vigilante.
     Constantemente pregunta:
     “¿El Call Stack está vacío?”
     Si sí, saca el siguiente callback de la cola y lo ejecuta.
 
+---
 
-🔁 Representación simple:
+## Representación simple:
+```
 Código principal → Event Table → Callback Queue → Event Loop → Call Stack → Resultado
+```
 
-**Ejemplo con tareas reales**
+---
+
+## Ejemplo con tareas reales
 ```JavaScript
 const fs = require("fs");
 
@@ -154,35 +164,43 @@ fs.readFile("archivo.txt", "utf8", (err, data) => {
 console.log("Fin");
 ```
 
-📤 Salida:
-
+## Salida:
+```
 Inicio
 Fin
 Archivo leído
+```
 
 Mientras Node lee el archivo (operación lenta), el Event Loop deja que el programa continúe.
-Cuando termina, ejecuta el callback console.log("Archivo leído").
+Cuando termina, ejecuta el callback `console.log("Archivo leído")`.
 
-🚀 Beneficio principal
+---
+
+## Beneficio principal
 
 Gracias al Event Loop:
+- Node.js no se bloquea con tareas lentas.
+- Puede atender miles de conexiones simultáneas con un solo hilo.
+- Es ideal para servidores web, APIs y aplicaciones en tiempo real (chats, sockets, etc.).
 
-Node.js no se bloquea con tareas lentas.
+---
 
-Puede atender miles de conexiones simultáneas con un solo hilo.
+## En resumen
+| Componente         | Función                               |
+| ------------------ | ------------------------------------- |
+| **Call Stack**     | Ejecuta el código principal           |
+| **Event Table**    | Guarda tareas asíncronas              |
+| **Callback Queue** | Espera a que el Stack esté libre      |
+| **Event Loop**     | Mueve las tareas completadas al Stack |
+| **Resultado**      | Flujo rápido y sin bloqueos           |
 
-Es ideal para servidores web, APIs y aplicaciones en tiempo real (chats, sockets, etc.).
-
-💡 En resumen
-Componente	Función
-Call Stack	Ejecuta el código principal
-Event Table	Guarda tareas asíncronas
-Callback Queue	Espera a que el Stack esté libre
-Event Loop	Mueve las tareas completadas al Stack
-Resultado	Flujo rápido y sin bloqueos
-
+---
 
 Este diagrama muestra cómo funciona el Event Loop en Node.js, que es el corazón de su sistema asíncrono. 
+
+<div align="center">
+  <img src="/imgs/even-loop.png" width="600" alt="Even Loop" />
+</div>
 
 ## 1. Call Stack (Pila de llamadas)
 Aquí se ejecuta el código principal de JavaScript, **de arriba hacia abajo.** Cada vez que llamas una función, se “apila” aquí. Cuando termina, se “desapila”.
@@ -212,19 +230,20 @@ El *Event Loop* es el encargado de revisar constantemente:
 
 Así Node.js puede hacer muchas cosas al mismo tiempo sin bloquear el programa 
 
-⚡ Ejemplo rápido:
+## Ejemplo rápido:
+```JavaScript
 console.log('1');
 setTimeout(() => console.log('2'), 1000);
 console.log('3');
+```
 
-🔹 Call Stack: ejecuta console.log('1') → muestra 1
-🔹 Envía setTimeout al Event Table
-🔹 Ejecuta console.log('3') → muestra 3
-🔹 Cuando pasa 1 segundo, el callback (console.log('2')) vuelve a la Callback Queue
-🔹 El Event Loop lo envía al Call Stack → muestra 2
+- **Call Stack:** ejecuta `console.log('1')` → muestra `1`
+- Envía `setTimeout` al **Event Table**
+- Ejecuta `console.log('3')` → muestra `3`
+- Cuando pasa 1 segundo, el callback (`console.log('2')`) vuelve a la **Callback Queue**
+- El **Event Loop** lo envía al **Call Stack** → muestra `2`
 
-🧠 Resultado final en consola:
-
+Resultado final en consola:
 1
 3
 2
