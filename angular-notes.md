@@ -15,7 +15,7 @@
 
 3. **Verificar instalación**
    - Abre CMD o PowerShell y escribe:
-      `nvm -v`
+      - `nvm -v`
       
 Si ves un número de versión, está funcionando.
 
@@ -37,30 +37,30 @@ No instalar Node.js directamente desde nodejs.org, porque puede interferir con n
 **EN RESUMEN:**
 Node.js oficial + NVM al mismo tiempo = choques y confusión.
 1. **Ver qué versiones de Node.js hay disponibles online**
-      `nvm list available`
+   - `nvm list available`
 
 2. **Instalar una versión específica de Node.js**
-      `nvm install <versión>`
+   - `nvm install <versión>`
       - **Ejemplo:** *nvm install 22.19.0*
 
 3. **Activar (usar) una versión instalada**
-   `nvm use <versión>`
+   - `nvm use <versión>`
       - *Ejemplo: nvm use 22.19.0*
 
 4. **Ver la versión activa de Node.js y npm**
-   `node -v` *# Versión de Node.js*
-   `npm -v`  *# Versión de npm*
+   - `node -v` *# Versión de Node.js*
+   - `npm -v`  *# Versión de npm*
 
 5. **Listar versiones instaladas en tu máquina**
-   `nvm list`
+   - `nvm list`
       - **IMPORTANTE:** *La versión activa tendrá un "" al lado.*
 
 6. **Establecer una versión por defecto**
-   `nvm alias default <versión>`
+   - `nvm alias default <versión>`
       - **Ejemplo:** *nvm alias default 22.19.0*
    
 7. **Desinstalar una versión**
-   `nvm uninstall <versión>`
+   - `nvm uninstall <versión>`
       - **Ejemplo:** *nvm uninstall 18.17.0*
 
 **TIPS:**
