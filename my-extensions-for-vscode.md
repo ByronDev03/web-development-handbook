@@ -34,7 +34,8 @@
 | ![alt text](imgs/mit.png)               | Material Icon Theme                                            | Philipp Kief           |
 | ![alt text](image-13.png)               |                                                                |                        |
 | ![alt text](imgs/monokai.png)           | Monokai Pro      	                                           | monokai                |
-| ![alt text](imgs/nightowl.png)          | Night Owl    	                                               | sarah.drasner          |              
+| ![alt text](imgs/nightowl.png)          | Night Owl    	                                               | sarah.drasner          | 
+| ![alt text](image-22.png)               |                                                                |                        |              
 | ![alt text](imgs/prettier.png)          | Prettier - Code formatter       	                           | Prettier               |                        
 | ![alt text](imgs/prettify.png)          | Prettify JSON    	                                           | Mohsen Azimi           |                        
 | ![alt text](image-12.png)               |                                                                |                        | 
@@ -49,7 +50,7 @@
 | ![alt text](image-9.png)                |                                                                |                        |
 | ![alt text](image-8.png)                |                                                                |                        |
 | ![alt text](imgs/vibrancy.png)          | Vibrancy Continued                                             | illixion               |                        
-| ![alt text](imgs/vscode-icons.png)      | VSCode Icons Team                                              |                        |
+| ![alt text](imgs/vscode-icons.png)      | VSCode Icons Team                                              | VSCode Icons Team      |
 | ![alt text](image-10.png)               |                                                                |                        |
 | ![alt text](image-20.png)               |                                                                |                        |
-| ![alt text](image-21.png)               |                                                                |                        |  
+| ![alt text](image-21.png)               |                                                                |                        | 
