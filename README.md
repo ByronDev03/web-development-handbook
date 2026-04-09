@@ -1,130 +1,58 @@
-<h1 align="center">TABLA DE CONTENIDOS</h1>
+<h1 align="center">WEB DEVELOPMENT HANDBOOK</h1>
+
+<p align="center">
+A structured collections of web
+development concepts, notes and
+practical knowledge.
+</p>
 
 ---
 
-# 📑 Apuntes disponibles
-- [📖 Preguntas para Entrevista Junior (Versión JAVA)](interview-questions-(java-version).md)
+# 📑 Table of Contents
 
-- [📖 Preguntas para Entrevista Junior (Versión ANGULAR)](interview-questions-(angular-version).md)
+## Fundamentals
+- [🌐 HTTP Methods](fundamentals/http-methods.md)
+- [📊 HTTP Status Codes](fundamentals/http-status-codes.md)
+- [🖥️ Client - Server Model](fundamentals/client-server.md)
+- [🔐 CORS](fundamentals/cors.md)
 
-- [Mis extensiones para Visual Studio Code](my-extensions-for-vscode.md)
+---
 
-- [Mis Herramientas de Trabajo Instaladas](my-softwares.md)
+## Backend
+- [🟢 Node.js](backend/node.js.md)
+- [🔑 SSH Guide](backend/ssh.md)
 
-- [🌐 Métodos de Petición HTTP](http-methods-notes.md)
-    - [¿Qué son?](http-methods-notes.md#qué-son)
-    - [Métodos HTTP principales](http-methods-notes.md#métodos-http-principales)
-    - [En resumen](http-methods-notes.md#en-resumen)
-    
-- [📊 Códigos de Estado HTTP](http-status-codes-notes.md)
-    - [¿Qué son?](http-status-codes-notes.md#qué-son)
-    - [1xx - Informativos](http-status-codes-notes.md#1xx---informativos) 
-    - [2xx - Éxito](http-status-codes-notes.md#2xx---éxito)
-    - [3xx - Redirecciones](http-status-codes-notes.md#3xx---redirecciones)
-    - [4xx - Errores del cliente](http-status-codes-notes.md#4xx---errores-del-cliente)
-    - [5xx - Errores del servidor](http-status-codes-notes.md#5xx---errores-del-servidor)
+---
 
-- [🖥️ Modelo Cliente - Servidor](client-server-model-notes.md)
-  - [¿Qué es?](client-server-model-notes.md#qué-es)
-  - [Características Principales](client-server-model-notes.md#características-principales)
-  - [Componentes](client-server-model-notes.md#componentes)
-  - [¿Cómo Funciona?](client-server-model-notes.md#cómo-funciona)
-  - [Tipos de Servidores](client-server-model-notes.md#tipos-de-servidores)
-  - [Ventajas](client-server-model-notes.md#ventajas)
-  - [Desventajas](client-server-model-notes.md#desventajas)
-  - [Ejemplos en la vida diaria](client-server-model-notes.md#ejemplos-en-la-vida-diaria)
-  - [Diagrama del funcionamiento del modelo cliente-servidor](client-server-model-notes.md#diagrama-del-funcionamiento-del-modelo-cliente-servidor)
-  - [Explicación del diagrama](client-server-model-notes.md#explicación-del-diagrama)
-  - [En resumen](client-server-model-notes.md#en-resumen)
+## Frontend
+- [🅰️ Angular Guide](frontend/angular.md)
 
-- [🔐 Cross-Origin Resource Sharing (CORS)](cors-notes.md)
-  - [¿Qué es?](cors-notes.md#qué-es)
-  - [En pocas palabras](cors-notes.md#en-pocas-palabras)
-  - [¿Por qué existe?](cors-notes.md#por-qué-existe)
-  - [¿Cómo funciona?](cors-notes.md#cómo-funciona)
-  - [Diagrama del funcionamiento de CORS](cors-notes.md#diagrama-del-funcionamiento-de-cors)
-  - [En resumen](cors-notes.md#en-resumen)
+---
 
-- [🔎 Search Engine Optimization (SEO)](seo-notes.md)
-  - [¿Qué es?](seo-notes.md#qué-es)
-  - [Prinicpales áreas](seo-notes.md#prinicpales-áreas-del-seo)
-  - [Características](seo-notes.md#características)
-  - [Ventajas](seo-notes.md#ventajas)
-  - [Desventajas](seo-notes.md#desventajas) 
-  - [Ejemplo práctico](seo-notes.md#ejemplo-práctico-una-empresa-de-venta-de-productos-de-limpieza-quiere-vender-más-limpiadores-ecológicos-en-línea)
+##  Marketing
+- [🔎 SEO](marketing/seo.md)
+- [💰 SEM](marketing/sem.md)
+- [🤖 robots.txt](/marketing/robots.txt.md)
 
-- [💰 Search Engine Marketing (SEM)](sem-notes.md)
-  - [¿Qué es?](sem-notes.md#qué-es)
-  - [Tipos de campañas](sem-notes.md#tiempo-de-campañas-sem)
-  - [Características](sem-notes.md#características)
-  - [Ventajas](sem-notes.md#ventajas)
-  - [Desventajas](sem-notes.md#desventajas) 
-  - [Ejemplo práctico](sem-notes.md#ejemplo-práctico-una-empresa-de-venta-de-productos-de-limpieza-quiere-vender-más-limpiadores-ecológicos-en-línea.)
-  - [CPC (Costo Por Clic)](sem-notes.md#cpc-costo-por-clic)
-  - [CPM (Costo Por Mil Impresiones)](sem-notes.md#cpm-costo-por-mil-impresiones)
-  - [Diferencias clave entre SEO y SEM](sem-notes.md#diferencias-clave-entre-seo-y-sem)
-  - [Resumen práctico](sem-notes.md#resumen-práctico)
-  - [Conclusion](sem-notes.md#conclusion)
+---
 
-- [🏃🏻 SCRUM](scrum-notes.md)
-  - [¿Qué es?](scrum-notes.md#qué-es)
-  - [¿Cómo funciona?](scrum-notes.md#cómo-funciona)
-  - [Roles principales](scrum-notes.md#roles-principales)
-  - [Eventos clave](scrum-notes.md#eventos-clave)
-  - [¿Qué es un Sprint?](scrum-notes.md#qué-es-un-sprint)
-  - [Ejemplo práctico](scrum-notes.md#ejemplo-práctico)
-  - [Sprint Planning](scrum-notes.md#sprint-planning)
-  - [Ejemplo de Historia de Usuario (Ticket Scrum)](scrum-notes.md#ejemplo-de-historia-de-usuario-ticket-scrum)
+## Methodologies
+- [🏃🏻 SCRUM](methodologies/scrum.md)
+- [📋 KANBAN](methodologies/kanban.md)
 
-- [📋 KANBAN](kanban-notes.md)
-  - [¿Qué es?](kanban-notes.md#qué-es)
-  - [¿Cómo funciona?](kanban-notes.md#cómo-funciona)
-  - [Reglas importantes](kanban-notes.md#reglas-importantes) 
-  - [Ejemplo práctico](kanban-notes.md#ejemplo-práctico)
-  - [¿Qué es un ticket?](kanban-notes.md#qué-es-un-ticket)
-  - [Ejemplo en la vida real](kanban-notes.md#ejemplo-en-la-vida-real)  
-  - [Diferencia clave](kanban-notes.md#diferencia-clave)
-  - [Demostración de SCRUM y KANBAN](kanban-notes.md#demostración-de-scrum-y-kanban)
+---
 
-- [🅰️ Guía de Instalación de Angular](angular-notes.md)
-  - [¿Cómo instalar nvm en Windows?](angular-notes.md#cómo-instalar-nvm-en-windows)
-  - [¿Cómo instalar y Desisntalar *Node.js* desde *nvm* en Windows?](angular-notes.md#cómo-instalar-y-desisntalar-nodejs-desde-nvm-en-windows)
-  - [¿Cómo instalar Angular para Windows?](angular-notes.md#cómo-instalar-angular-para-windows)
-  - [¿Cómo crear un proyecto desde cero en Angular para Windows?](angular-notes.md#cómo-crear-un-proyecto-desde-cero-en-angular-para-windows)
-  - [¿Cómo eliminar un proyecto en Angular para Windows?](angular-notes.md#cómo-eliminar-un-proyecto-en-angular-en-windows)
-  - [Comandos básicos de *npm*](angular-notes.md#comandos-básicos-de-npm)
+## Tools
+- [VS Code Extensions](tools/vscode-extensions.md)
+- [Development Tools](tools/dev-tools.md)
 
-- [🟢 Node.js](node.js-notes.md)
-  - [¿Qué es?](node.js-notes.md#qué-es)
-  - [¿Cómo funciona?](node.js-notes.md#cómo-funciona)
-  - [Arquitectura y características principales](node.js-notes.md#arquitectura-y-características-principales) 
-  - [Ejemplo práctico: servidor básico en Node.js](node.js-notes.md#ejemplo-práctico-servidor-básico-en-node.js)
-  - [¿Para qué se usa Node.js?](node.js-notes.md#para-qué-se-usa-node.js)
-  - [Ventajas](node.js-notes.md#ventajas) 
-  - [Desventajas](node.js-notes.md#desventajas) 
-  - [¿Qué es el Event Loop?](node.js-notes.md#qué-es-el-event-loop) 
-    - [¿Cómo funciona el flujo internamente?](node.js-notes.md#cómo-funciona-el-flujo-internamente) 
-    - [Representación simple](node.js-notes.md#representación-simple) 
-    - [Ejemplo con tareas reales](node.js-notes.md#ejemplo-con-tareas-reales) 
-    - [Beneficio principal](node.js-notes.md#beneficio-principal) 
-    - [Diagrama del funcionamiento del Event Loop en Node.js](node.js-notes.md#diagrama-del-funcionamiento-del-event-loop-en-node.js) 
-  - [En resumen](node.js-notes.md#en-resumen) 
+---
 
-- [🤖 robots.txt](robots.txt-notes.md)
-  - [¿Qué es?](robots.txt-notes.md#qué-es)
-  - [¿Cómo funciona?](robots.txt-notes.md#cómo-funciona)
-  - [Ejemplo práctico](robots.txt-notes.md#ejemplo-práctico) 
-  - [Cosas importantes](robots.txt-notes.md#cosas-importantes)
-  - [Uso práctico](robots.txt-notes.md#uso-práctico)
-  - [En resumen](robots.txt-notes.md#en-resumen) 
+## Interview Preparation
+- [ Java Interview Questions](interview/java-interview.md)
+- [🅰️ Angular Interview Questions](interview/angular-interview.md)
 
-- [🔑 Glosario SSH](ssh-glossary.md)
-  - [Conexión y Navegación](ssh-glossary.md#conexión-y-navegación)
-  - [Node / npm / Build](ssh-glossary.md#node--npm--build) 
-  - [PM2 (Backend en Producción)](ssh-glossary.md#pm2-backend-en-producción)
-  - [NGINX (Servidor Web)](ssh-glossary.md#nginx-servidor-web)
-  - [Red / Puertos](ssh-glossary.md#red--puertos) 
-  - [MySQL / Base de Datos](ssh-glossary.md#mysql--base-de-datos) 
-  - [Permisos](ssh-glossary.md#permisos) 
-  - [Git](ssh-glossary.md#git) 
-  - [Deploy](ssh-glossary.md#deploy) 
+---
+
+## About
+This repository contains structured notes and concepts that I've learned and documented during my journey as a developer.
