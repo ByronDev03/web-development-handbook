@@ -11,12 +11,12 @@ A structured collection of web development concepts, notes, and practical knowle
 ---
 
 ## 🌐 Fundamentals  
-![HTTP](https://img.shields.io/badge/HTTP-005571?logo=internet-explorer&logoColor=white)
+![Fundamentals](https://img.shields.io/badge/Fundamentals-0A66C2?logo=&logoColor=white)
 
-- <img src="https://cdn.simpleicons.org/http" width="16" /> [HTTP Methods](fundamentals/http-methods.md)
-- <img src="https://cdn.simpleicons.org/statuspage" width="16" /> [HTTP Status Codes](fundamentals/http-status-codes.md)
-- <img src="https://cdn.simpleicons.org/serverfault" width="16" /> [Client - Server Model](fundamentals/client-server.md)
-- <img src="https://cdn.simpleicons.org/security" width="16" /> [CORS](fundamentals/cors.md)
+- <img src="" width="16" /> [HTTP Methods](fundamentals/http-methods.md)
+- <img src="" width="16" /> [HTTP Status Codes](fundamentals/http-status-codes.md)
+- <img src="" width="16" /> [Client - Server Model](fundamentals/client-server.md)
+- <img src="" width="16" /> [CORS](fundamentals/cors.md) 
 
 ---
 
@@ -29,7 +29,7 @@ A structured collection of web development concepts, notes, and practical knowle
 ---
 
 ## 🎨 Frontend  
-![Frontend](https://img.shields.io/badge/Frontend-DD0031?logo=angular&logoColor=white)
+![Frontend](https://img.shields.io/badge/Frontend-DD0031?logo=&logoColor=white)
 
 - <img src="https://cdn.simpleicons.org/angular" width="16" /> [Angular Guide](frontend/angular.md)
 
@@ -55,15 +55,15 @@ A structured collection of web development concepts, notes, and practical knowle
 ## 🧰 Tools  
 ![Tools](https://img.shields.io/badge/Tools-4CAF50?logo=visualstudiocode&logoColor=white)
 
-- <img src="https://cdn.simpleicons.org/visualstudiocode" width="16" /> [VS Code Extensions](tools/vscode-extensions.md)
-- <img src="https://cdn.simpleicons.org/windows" width="16" /> [Development Tools](tools/dev-tools.md)
+- <img src="" width="16" /> [VS Code Extensions](tools/vscode-extensions.md)
+- <img src="" width="16" /> [Development Tools](tools/dev-tools.md)
 
 ---
 
 ## 🎯 Interview Preparation  
 ![Interview](https://img.shields.io/badge/Interview-6A1B9A?logo=readthedocs&logoColor=white)
 
-- <img src="https://cdn.simpleicons.org/java" width="16" /> [Java Interview Questions](interview/java-interview.md)
+- <img src="" width="16" /> [Java Interview Questions](interview/java-interview.md)
 - <img src="https://cdn.simpleicons.org/angular" width="16" /> [Angular Interview Questions](interview/angular-interview.md)
 
 ---
