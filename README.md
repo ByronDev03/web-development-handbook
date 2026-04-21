@@ -59,6 +59,7 @@ A structured collection of web development concepts, notes, and practical knowle
 - <img src="" width="16" /> [Development Tools](tools/dev-tools.md)
 - <img src="https://cdn.simpleicons.org/angular" width="16" /> [Angular Environment Setup](tools/angular-setup.md)
 - <img src="" width="16" /> [SSH Setup for GitHub (Windows)](tools/ssh-setup-github-windows.md)
+- <img src="" width="16" /> [SSH Remote Connection (AWS)](tools/ssh-aws-connection.md)
 
 ---
 
