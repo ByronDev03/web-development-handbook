@@ -14,7 +14,9 @@ ssh
 ```
 
 - **Deberá responder lo siguiente:**
-![[IMG-20260410-WA0065.jpg]]
+<div align="center">
+  <img src="/imgs/ssh.jpg" width="600" alt="ssh" />
+</div>
 
 ---
 #### ¿Cómo conectarse a AWS?
@@ -45,7 +47,7 @@ ssh -i mi-clave.pem ec2-user@18.222.xx.xx
 > Si da error de permisos, ejecutar:
 > ```Bash
 > icacls mi-clave.pem /inheritance:r
-   icacls mi clave.pem/ grant:r"$($env:USERNAME):(R)"
+> icacls mi clave.pem/ grant:r"$($env:USERNAME):(R)"
 > ```
 > Con esto corrigue permisos estilo Linux.
 
@@ -230,7 +232,7 @@ sudo systemctl enable docker
 sudo apt install -y docker-compose
 ```
 
-> [! Important]
+> [!Important]
 > **Para evitar usar `sudo` siempre y dar permisos:**
 > ```Bash
 > sudo usermod -aG docker $USER
