@@ -8,8 +8,6 @@ A structured collection of web development concepts, notes, and practical knowle
 
 # 📖 Table of Contents
 
----
-
 ## 🌐 Fundamentals  
 ![Fundamentals](https://img.shields.io/badge/Fundamentals-0A66C2?logo=&logoColor=white)
 
@@ -17,6 +15,7 @@ A structured collection of web development concepts, notes, and practical knowle
 - <img src="" width="16" /> [HTTP Status Codes](fundamentals/http-status-codes.md)
 - <img src="" width="16" /> [Client - Server Model](fundamentals/client-server.md)
 - <img src="" width="16" /> [CORS](fundamentals/cors.md) 
+- <img src="" width="16" /> [JSON](fundamentals/json.md) 
 
 ---
 
@@ -45,7 +44,7 @@ A structured collection of web development concepts, notes, and practical knowle
 
 ---
 
-## 🔎 Business
+##  Business
 ![Business]()
 
 - <img src="https://cdn.simpleicons.org/robotframework" width="16" /> [CRM & ERP](business/CRM&ERP.md)
