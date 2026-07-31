@@ -13,25 +13,25 @@ Se usa mucho para **enviar datos entre un cliente (por ejemplo, un navegador) y 
 Un JSON se basa en **dos estructuras principales:**
 1. **Objeto:** Colecciones de pares **claves-valor**, delimitadas por `{}`.
     - Ejemplo:
-    ```Bash
-    {
-        "nombre": "Byron",
-        "edad": 23,
-        "activo": true
-    }
-    ```
-    - **"nombre"** es la clave, **"Byron"** es el valor.
-    - Los valores pueden ser: **números, cadenas, booleanos, nulos, objetos o arreglos**.
+        ```Bash
+        {
+            "nombre": "Byron",
+            "edad": 23,
+            "activo": true
+        }
+        ```
+        - **"nombre"** es la clave, **"Byron"** es el valor.
+        - Los valores pueden ser: **números, cadenas, booleanos, nulos, objetos o arreglos**.
 
 2. **Arreglos (Arrays):** Listas de valores delimitadas por `[]`.
     - Ejemplo:
-    ```Bash
-    [
-        "Manzana",
-        "Pera",
-        "Plátano"
-    ]
-    ```
+        ```Bash
+        [
+            "Manzana",
+            "Pera",
+            "Plátano"
+        ]
+        ```
 
 Los objetos y arreglos pueden **anidarse:**
 - Ejemplo: 
