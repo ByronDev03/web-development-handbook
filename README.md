@@ -41,7 +41,14 @@ A structured collection of web development concepts, notes, and practical knowle
 - <img src="https://cdn.simpleicons.org/google" width="16" /> [SEO](marketing/seo.md)
 - <img src="https://cdn.simpleicons.org/googleads" width="16" /> [SEM](marketing/sem.md)
 - <img src="https://cdn.simpleicons.org/robotframework" width="16" /> [robots.txt](marketing/robots-txt.md)
-- <img src="https://cdn.simpleicons.org/robotframework" width="16" /> [CRM & ERP](marketing/CRM&ERP.md)
+
+
+---
+
+## 🔎 Business
+![Business]()
+
+- <img src="https://cdn.simpleicons.org/robotframework" width="16" /> [CRM & ERP](business/CRM&ERP.md)
 
 ---
 
