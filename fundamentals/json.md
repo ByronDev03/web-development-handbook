@@ -100,19 +100,49 @@ Dicho de otra forma: **JSON es un formato de datos, no un programa.**
 
 **Se resume así:**
 1. **Intercambio de datos:** JSON se usa para **enviar información entre sistemas,** por ejemplo:
-    - Un navegador y un servidor y un servidor web (frontend⭤ backend).
+    - Un navegador y un servidor y un servidor web (frontend ↔ backend).
     - Diferentes servicios o APIs entre sí.
 
-**Ejemplo:** Una app de clima pide los datos al servidor y recibe:
-```Bash
-{
-    "ciudad": "Ciudad de México",
-    "temperatura": 25°,
-    "condición": "soleado"
-}
-```
-El servidor envía datos y la aplicación los interpreta para mostrar la información al usuario.
+    **Ejemplo:** Una app de clima pide los datos al servidor y recibe:
+    ```Bash
+    {
+        "ciudad": "Ciudad de México",
+        "temperatura": 25°,
+        "condición": "soleado"
+    }
+    ```
+    El servidor envía datos y la aplicación los interpreta para mostrar la información al usuario.
 
 2. **Almacenamiento de datos:** Se puede usar para **guardar información de manera organizada,** como:
     - Configuración de una app.
     - Datos de usuarios. 
+    - Listas de productos o inventarios.
+
+    **Ejemplo de configuración:**
+    ```Bash
+    {
+        "tema": "oscuro",
+        "notificaciones": true,
+        "volumen": 75
+    }
+    ```
+    Luego tu programa lee este JSON para ajustar la app según estas preferencias.
+
+3. **Serialización de datos:** JSON permite **convertir estructuras de datos complejos en texto,** que luego se puede:
+    - Guardar en un archivo. 
+    - Enviar por internet.
+    - Volver a convertir en objetos dentro de un lenguaje de programación.
+
+    **Ejemplo:** Un objeto en JavaScript:
+    ```Bash
+    const usuario = {nombre: "Byron", edad: 25}
+    ```
+    Se puede convertir a JSON con **JSON.stringify** (usuario) y enviar a otro sistema.
+
+---
+
+## En conclusión
+- Su función principal es la de **almacenar y transmitir** datos.
+- **No ejecuta acciones,** solo representa información.
+- **Legible** para humanos y máquinas.
+- Se usa en **APIs, aplicaciones web, configuraciones y base de datos ligeras.** 
