@@ -16,6 +16,7 @@ A structured collection of web development concepts, notes, and practical knowle
 - <img src="" width="16" /> [Client - Server Model](fundamentals/client-server.md)
 - <img src="" width="16" /> [CORS](fundamentals/cors.md) 
 - <img src="" width="16" /> [JSON](fundamentals/json.md) 
+- <img src="" width="16" /> [TECH ACRONYMS](fundamentals/tech-acronyms.md) 
 
 ---
 
