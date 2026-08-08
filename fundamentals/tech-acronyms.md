@@ -29,4 +29,16 @@
 | ***ERP***    | Enterprise Resource Planning        | Planificación de Recursos Empresariales          |
 | ***BI***     | Business Intelligence               | Inteligencia de Negocios                         |
 | ***POS***    | Point Of Sale                       | Punto de Venta                                   |
-| ******       |                                     |                                                  |
+| ***SEO***    | Search Engine Optimization          |                                                  |
+| ***SEM***    | Search Engine Marketing             |                                                  |
+| ***CTR***    | Click Through Rate                  |                                                  |
+| ***CPC***    | Cost Per Click                      |                                                  |
+| ***CPM***    | Cost Per Mille                      |                                                  |
+| ***CTA***    | Call To Action                      |                                                  |
+| ***AWS***    | Amazon Web Services                 |                                                  |
+| ***GCP***    | Google Cloud Platform               |                                                  |
+| ***Azure***  | Microsoft Azure                     |                                                  |
+| ***EC2***    | Elastic Compute Cloud               |                                                  |
+| ***S3***     | Simple Storage Service              |                                                  |
+| ***IAM***    | Identity and Access Management      |                                                  |
+| ***SOAP***   | Simple Object Access Protocol       |                                                  |
