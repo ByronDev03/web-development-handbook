@@ -15,14 +15,14 @@
 | ***FTP***    | File Transfer Protocol              | Protocolo de Transferencia de Archivos            |
 | ***SFTP***   | SSH File Transfer Protocolo         | Protocolo de Transferencia de Archivos sobre SSH  |
 | ***SSH***    | Secure Shell                        | Shell Seguro                                      |
-| ***TCP***    |                                     |                                                   |
-| ***UDP***    |                                     |                                                   |
-| ***IP***     |                                     |                                                   |
-| ***IPv4***   |                                     |                                                   |
-| ***IPv6***   |                                     |                                                   |
-| ***CDN***    |                                     |                                                   |
-| ***SSL***    |                                     |                                                   |
-| ***TLS***    |                                     |                                                   |
+| ***TCP***    | Transmission Control Protocol       |                                                   |
+| ***UDP***    | User Datagram Protocol              |                                                   |
+| ***IP***     | Internet Protocol                   |                                                   |
+| ***IPv4***   | Internet Protocol Version 4         |                                                   |
+| ***IPv6***   | Internet Protocol Version 6         |                                                   |
+| ***CDN***    | Content Delivery Network            |                                                   |
+| ***SSL***    | Secure Sockets Layer                |                                                   |
+| ***TLS***    | Transport Layer Security            |                                                   |
 
 <h3 align="center">Backend</h3>
 
@@ -30,29 +30,34 @@
 | :---:        |     :---:                           |   :---:                                          | 
 | ***API***    | Application Programming Interface   | Interfaz de Programación de Aplicaciones         |
 | ***REST***   | Representational State Transfer     | Transferencia de Estado Representacional         |
-| ***SOAP***   | Simple Object Access Protocol       |                                                  |
-| ***MVC***    | Model View Controller               | Modelo - Vista - Controlador                     |
+| ***SOAP***   | Simple Object Access Protocol       | Protocolo Simple de Acceso a Objetos             |
+| ***MVC***    | Model-View-Controller               | Modelo-Vista-Controlador                         |
 | ***DTO***    | Data Transfer Object                | Objeto de Transferencia de Datos                 |
-| ***ORM***    | Object-Relational Mapping           | Mapeo relacional de objetos                      |
-| ***CRUD***   | Create. Read, Update, Delete        | Crear, Leer, Actualizar, Eliminar                |
+| ***ORM***    | Object-Relational Mapping           | Mapeo Objeto-Relacional                          |
+| ***CRUD***   | Create, Read, Update, Delete        | Crear, Leer, Actualizar, Eliminar                |
 | ***JWT***    | JSON Web Token                      | Token Web JSON                                   | 
-| ***DAO***    | Data Access Object                  |                                                  |
+| ***DAO***    | Data Access Object                  | Objeto de Acceso a Datos                         |
 | ***OOP***    | Object-Oriented Programming         | Programación Orientada a Objetos                 |
-| ***SOLID***  |                                     |                                                  |
-| ***IOC***    | Inversion of Control                |                                                  |
-| ***DI***     | Dependency Injection                |                                                  |
+| ***SOLID***  |                                     | Principios de diseño orientado a objetos         |
+| ***IOC***    | Inversion of Control                | Inversión de Control                             |
+| ***DI***     | Dependency Injection                | Inyección de Dependencias                        |
 | ***RPC***    | Remote Procedure Call               | Llamada a Procedimiento Remoto                   |
+| ***JSON***   | JavaScript Object Notation          | Notación de Objetos de JavaScript                |
+| ***JVM***    | Java Virtual Machine                | Máquina Virtual de Java                          |
+| ***JDK***    | Java Development Kit                | Kit de Desarrollo de Java                        |
+| ***JRE***    | Java Runtime Environment            | Entorno de Ejecución de Java                     |
+| ***CORS***   | Cross-Origin Resource Sharing       | Intercambio de Recursos entre Orígenes Cruzados  |
 
 <h3 align="center">Bases de Datos</h3>
 
-| SIGLA        | SIGNIFICADO EN INGLÉS                         | SIGNIFICADO EN ESPAÑOL                           |
-| :---:        |     :---:                                     |   :---:                                          | 
-| ***SQL***    | Structured Query Language                     | Lenguaje de Consultas Estructurado               |
-| ***NoSQL***  | Not Only SQL                                  |                                                  |
-| ***DMBS***   | Database Management Systems                   | Sistema de Gestión de Bases de Datos             |
-| ***RDBMS***  | Relational Database Management System         |                                                  |
-| ***ACID***   | Atomicity, Consistency, Isolation, Durability |                                                  |
-| ***CAP***    | Consistency, Availability, Partion Tolerance  |                                                  |
+| SIGLA        | SIGNIFICADO EN INGLÉS                           | SIGNIFICADO EN ESPAÑOL                           |
+| :---:        |     :---:                                       |   :---:                                          | 
+| ***SQL***    | Structured Query Language                       | Lenguaje de Consultas Estructurado               |
+| ***NoSQL***  | Not Only SQL                                    |                                                  |
+| ***DMBS***   | Database Management Systems                     | Sistema de Gestión de Bases de Datos             |
+| ***RDBMS***  | Relational Database Management System           |                                                  |
+| ***ACID***   | Atomicity, Consistency, Isolation, Durability   |                                                  |
+| ***CAP***    | Consistency, Availability, Partition Tolerance  |                                                  |
 
 <h3 align="center">Frontend</h3>
 
@@ -71,17 +76,17 @@
 
 <h3 align="center">DevOps</h3>
 
-| SIGLA        | SIGNIFICADO EN INGLÉS                        | SIGNIFICADO EN ESPAÑOL                           |
-| :---:        |     :---:                                    |   :---:                                          | 
-| ***CI***     | Continuos Integration                        |                                                  |
-| ***CD***     | Continuos Delivery / Deployment              |                                                  |
-| ***CI/CD***  | Continuos Integration / Continuos Deployment |                                                  |
-| ***VM***     | Virtual Machine                              |                                                  |
-| ***VPS***    | Virtual Private Server                       |                                                  |
-| ***OS***     | Operating System                             |                                                  |
-| ***CLI***    | Command Line Interface                       |                                                  |
-| ***GUI***    | Graphical User Interface                     |                                                  |
-| ***YAML***   | YAML Ain't Markup Language                   |                                                  |
+| SIGLA        | SIGNIFICADO EN INGLÉS                          | SIGNIFICADO EN ESPAÑOL                           |
+| :---:        |     :---:                                      |   :---:                                          | 
+| ***CI***     | Continuous Integration                         |                                                  |
+| ***CD***     | Continuous Delivery / Deployment               |                                                  |
+| ***CI/CD***  | Continuous Integration / Continuous Deployment |                                                  |
+| ***VM***     | Virtual Machine                                |                                                  |
+| ***VPS***    | Virtual Private Server                         |                                                  |
+| ***OS***     | Operating System                               |                                                  |
+| ***CLI***    | Command Line Interface                         |                                                  |
+| ***GUI***    | Graphical User Interface                       |                                                  |
+| ***YAML***   | YAML Ain't Markup Language                     |                                                  |
 
 <h3 align="center">Cloud</h3>
 
@@ -89,7 +94,6 @@
 | :---:        |     :---:                           |   :---:                                          | 
 | ***AWS***    | Amazon Web Services                 |                                                  |
 | ***GCP***    | Google Cloud Platform               |                                                  |
-| ***Azure***  | Microsoft Azure                     |                                                  |
 | ***EC2***    | Elastic Compute Cloud               |                                                  |
 | ***S3***     | Simple Storage Service              |                                                  |
 | ***IAM***    | Identity and Access Management      |                                                  |
@@ -100,7 +104,7 @@
 | :---:        |     :---:                           |   :---:                                          | 
 | ***SEO***    | Search Engine Optimization          | Optimización para Motores de Búsqueda            |
 | ***SEM***    | Search Engine Marketing             | Marketing en Motores de Búsqueda                 |
-| ***CTR***    | Click Through Rate                  |                                                  |
+| ***CTR***    | Click-Through Rate                  |                                                  |
 | ***CPC***    | Cost Per Click                      |                                                  |
 | ***CPM***    | Cost Per Mille                      |                                                  |
 | ***CTA***    | Call To Action                      |                                                  |
@@ -127,8 +131,3 @@
 | ***POS***    | Point Of Sale                       | Punto de Venta                                   |
 
 
-| ***JSON***   | JavaScript Object Notation          | Notación de Objetos de JavaScript                |
-| ***JVM***    | Java Virtual Machine                | Máquina Virtual de Java                          |
-| ***JDK***    | Java Development Kit                | Kit de Desarrollo de Java                        |
-| ***JRE***    | Java Runtime Environment            | Entorno de Ejecución de Java                     |
-| ***CORS***   | Cross-Origin Resource Sharing       | Intercambio de Recursos entre Orígenes Cruzados  |
