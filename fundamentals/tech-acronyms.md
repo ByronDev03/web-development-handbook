@@ -38,7 +38,7 @@
 | ***JWT***    | JSON Web Token                      | Token Web JSON                                   | 
 | ***DAO***    | Data Access Object                  | Objeto de Acceso a Datos                         |
 | ***OOP***    | Object-Oriented Programming         | Programación Orientada a Objetos                 |
-| ***SOLID***  |                                     | Principios de diseño orientado a objetos         |
+| ***SOLID***  | Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion | Principios de diseño orientado a objetos |
 | ***IOC***    | Inversion of Control                | Inversión de Control                             |
 | ***DI***     | Dependency Injection                | Inyección de Dependencias                        |
 | ***RPC***    | Remote Procedure Call               | Llamada a Procedimiento Remoto                   |
@@ -50,26 +50,26 @@
 
 <h3 align="center">Bases de Datos</h3>
 
-| SIGLA        | SIGNIFICADO EN INGLÉS                           | SIGNIFICADO EN ESPAÑOL                           |
-| :---:        |     :---:                                       |   :---:                                          | 
-| ***SQL***    | Structured Query Language                       | Lenguaje de Consultas Estructurado               |
-| ***NoSQL***  | Not Only SQL                                    |                                                  |
-| ***DMBS***   | Database Management Systems                     | Sistema de Gestión de Bases de Datos             |
-| ***RDBMS***  | Relational Database Management System           |                                                  |
-| ***ACID***   | Atomicity, Consistency, Isolation, Durability   |                                                  |
-| ***CAP***    | Consistency, Availability, Partition Tolerance  |                                                  |
+| SIGLA        | SIGNIFICADO EN INGLÉS                           | SIGNIFICADO EN ESPAÑOL                                  |
+| :---:        |     :---:                                       |   :---:                                                 | 
+| ***SQL***    | Structured Query Language                       | Lenguaje de Consultas Estructurado                      |
+| ***NoSQL***  | Not Only SQL                                    | No Solo SQL                                             |
+| ***DMBS***   | Database Management Systems                     | Sistema de Gestión de Bases de Datos                    |
+| ***RDBMS***  | Relational Database Management System           | Sistema de Gestión de Bases de Datos Relacional         |
+| ***ACID***   | Atomicity, Consistency, Isolation, Durability   | Atomicidad, Consistencia, Aislamiento y Durabilidad     |
+| ***CAP***    | Consistency, Availability, Partition Tolerance  | Consistencia, Disponibilidad y Tolerancia a Particiones |
 
 <h3 align="center">Frontend</h3>
 
 | SIGLA        | SIGNIFICADO EN INGLÉS               | SIGNIFICADO EN ESPAÑOL                           |
 | :---:        |     :---:                           |   :---:                                          | 
 | ***DOM***    | Document Object Model               | Modelo de Objetos del Documento                  |
-| ***BOM***    | Browser Object Model                |                                                  |
-| ***SPA***    | Single Page Application             |                                                  |
-| ***MPA***    | Multi Page Application              |                                                  |
+| ***BOM***    | Browser Object Model                | Modelo de Objetos del Navegador                  |
+| ***SPA***    | Single Page Application             | Aplicación de una Sola Página                    |
+| ***MPA***    | Multi Page Application              | Aplicación de Múltiples Páginas                  |
 | ***CSR***    | Client-Side Rendering               | Renderizado del Lado del Cliente                 |
 | ***SSR***    | Server-Side Rendering               | Renderizado del Lado del Servidor                |
-| ***SSG***    | Static Site Generation              |                                                  |
+| ***SSG***    | Static Site Generation              | Generación de Sitios Estáticos                   |
 | ***PWA***    | Progressive Web App                 | Aplicación Web Progresiva                        |
 | ***UI***     | User Interface                      | Interfaz de Usuario                              |
 | ***UX***     | User Experience                     | Experiencia de Usuario                           |
@@ -78,25 +78,25 @@
 
 | SIGLA        | SIGNIFICADO EN INGLÉS                          | SIGNIFICADO EN ESPAÑOL                           |
 | :---:        |     :---:                                      |   :---:                                          | 
-| ***CI***     | Continuous Integration                         |                                                  |
-| ***CD***     | Continuous Delivery / Deployment               |                                                  |
-| ***CI/CD***  | Continuous Integration / Continuous Deployment |                                                  |
-| ***VM***     | Virtual Machine                                |                                                  |
-| ***VPS***    | Virtual Private Server                         |                                                  |
-| ***OS***     | Operating System                               |                                                  |
-| ***CLI***    | Command Line Interface                         |                                                  |
-| ***GUI***    | Graphical User Interface                       |                                                  |
-| ***YAML***   | YAML Ain't Markup Language                     |                                                  |
+| ***CI***     | Continuous Integration                         | Integración Continua                             |
+| ***CD***     | Continuous Delivery / Deployment               | Entrega Continua / Despliegue Continuo           |
+| ***CI/CD***  | Continuous Integration / Continuous Deployment | Integración Continua / Despliegue Continuo       |
+| ***VM***     | Virtual Machine                                | Máquina Virtual                                  |
+| ***VPS***    | Virtual Private Server                         | Servidor Privado Virtual                         |
+| ***OS***     | Operating System                               | Sistema Operativo                                |
+| ***CLI***    | Command Line Interface                         | Interfaz de Línea de Comandos                    |
+| ***GUI***    | Graphical User Interface                       | Interfaz Gráfica de Usuario                      |
+| ***YAML***   | YAML Ain't Markup Language                     | YAML no es un Lenguaje de Marcado                |
 
 <h3 align="center">Cloud</h3>
 
 | SIGLA        | SIGNIFICADO EN INGLÉS               | SIGNIFICADO EN ESPAÑOL                           |
 | :---:        |     :---:                           |   :---:                                          | 
-| ***AWS***    | Amazon Web Services                 |                                                  |
-| ***GCP***    | Google Cloud Platform               |                                                  |
-| ***EC2***    | Elastic Compute Cloud               |                                                  |
-| ***S3***     | Simple Storage Service              |                                                  |
-| ***IAM***    | Identity and Access Management      |                                                  |
+| ***AWS***    | Amazon Web Services                 | Servicios Web de Amazon                          |
+| ***GCP***    | Google Cloud Platform               | Plataforma de Google Cloud                       |
+| ***EC2***    | Elastic Compute Cloud               | Computación Elástica en la Nube                  |
+| ***S3***     | Simple Storage Service              | Servicio de Almacenamiento Simple                |
+| ***IAM***    | Identity and Access Management      | Gestión de Identidades y Accesos                 |
 
 <h3 align="center">Marketing y Analítica</h3>
 
@@ -104,22 +104,22 @@
 | :---:        |     :---:                           |   :---:                                          | 
 | ***SEO***    | Search Engine Optimization          | Optimización para Motores de Búsqueda            |
 | ***SEM***    | Search Engine Marketing             | Marketing en Motores de Búsqueda                 |
-| ***CTR***    | Click-Through Rate                  |                                                  |
-| ***CPC***    | Cost Per Click                      |                                                  |
-| ***CPM***    | Cost Per Mille                      |                                                  |
-| ***CTA***    | Call To Action                      |                                                  |
+| ***CTR***    | Click-Through Rate                  | Porcentaje de Usuarios que Hacen Clic            |
+| ***CPC***    | Cost Per Click                      | Costo por Clic                                   |
+| ***CPM***    | Cost Per Mille                      | Costo por Mil Impresiones                        |
+| ***CTA***    | Call To Action                      | LLamadaa la Acción                               |
 
 <h3 align="center">Metodologías</h3>
 
 | SIGLA        | SIGNIFICADO EN INGLÉS               | SIGNIFICADO EN ESPAÑOL                           |
 | :---:        |     :---:                           |   :---:                                          | 
-| ***SDLC***   | Software Development Life Cycle     |                                                  |
-| ***TDD***    | Test Driven Development             |                                                  |
-| ***BDD***    | Behaviour Driven Development        |                                                  |
-| ***MVP***    | Minimum Viable Product              |                                                  |
+| ***SDLC***   | Software Development Life Cycle     | Ciclo de Vida del Desarrollo de Software         |
+| ***TDD***    | Test-Driven Development             | Desarrollo Guiado por Pruebas                    |
+| ***BDD***    | Behaviour Driven Development        | Desarrollo Guiado por Comportamiento             |
+| ***MVP***    | Minimum Viable Product              | Producto Mínimo Viable                           |
 | ***KISS***   | Keep It Simple, Stupid              | Manténlo Simple                                  |
-| ***DRY***    | Don't Repeat Yourself               |                                                  |
-| ***YAGNI***  | You Aren't Gonna Need It            |                                                  |
+| ***DRY***    | Don't Repeat Yourself               | No te Repitas                                    |
+| ***YAGNI***  | You Aren't Gonna Need It            | No Vas a Necesitarlo                             |
 
 <h3 align="center">Negocio</h3>
 
