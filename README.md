@@ -45,7 +45,7 @@ A structured collection of web development concepts, notes, and practical knowle
 
 ---
 
-##  Business
+## 💼 Business
 ![Business]()
 
 - <img src="https://cdn.simpleicons.org/robotframework" width="16" /> [CRM & ERP](business/CRM&ERP.md)
