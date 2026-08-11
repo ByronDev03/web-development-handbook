@@ -15,14 +15,14 @@
 | ***FTP***    | File Transfer Protocol              | Protocolo de Transferencia de Archivos            |
 | ***SFTP***   | SSH File Transfer Protocolo         | Protocolo de Transferencia de Archivos sobre SSH  |
 | ***SSH***    | Secure Shell                        | Shell Seguro                                      |
-| ***TCP***    | Transmission Control Protocol       |                                                   |
-| ***UDP***    | User Datagram Protocol              |                                                   |
-| ***IP***     | Internet Protocol                   |                                                   |
-| ***IPv4***   | Internet Protocol Version 4         |                                                   |
-| ***IPv6***   | Internet Protocol Version 6         |                                                   |
-| ***CDN***    | Content Delivery Network            |                                                   |
-| ***SSL***    | Secure Sockets Layer                |                                                   |
-| ***TLS***    | Transport Layer Security            |                                                   |
+| ***TCP***    | Transmission Control Protocol       | Protocolo de Control de Transmision               |
+| ***UDP***    | User Datagram Protocol              | Protocolo de Datagrama de Usuario                 |
+| ***IP***     | Internet Protocol                   | Protocolo de Internet                             |
+| ***IPv4***   | Internet Protocol Version 4         | Protocolo de Internet version 4                   |
+| ***IPv6***   | Internet Protocol Version 6         | Protocolo de Internet version 6                   |
+| ***CDN***    | Content Delivery Network            | Red de Distribución de Contenido                  |
+| ***SSL***    | Secure Sockets Layer                | Capa de Conexión Segura                           |
+| ***TLS***    | Transport Layer Security            | Seguridad de la Capa de Transporte                |
 
 <h3 align="center">Backend</h3>
 
