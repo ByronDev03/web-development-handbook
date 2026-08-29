@@ -84,6 +84,7 @@ A structured collection of web development concepts, notes, and practical knowle
 
 - <img src="" width="16" /> [Java Interview Questions](interview/java-interview.md)
 - <img src="https://cdn.simpleicons.org/angular" width="16" /> [Angular Interview Questions](interview/angular-interview.md)
+- <img src="" width="16" /> [Web Development Questions](interview/web-development-questions.md)
 
 ---
 
