@@ -1,3 +1,7 @@
+<h1 align="center">WEB DEVELOPMENT QUESTIONS</h1>
+
+---
+
 **1.- Which HTTP method is commonly used to update an existing resource?**
 - [ ] A) GET
 - [ ] B) POST
