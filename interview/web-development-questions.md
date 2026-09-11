@@ -147,7 +147,7 @@
 - [ ] D) HTML headings
 
 **25.- A user submits a login form. What should normally happen first?**
-- [ ] A) The browser sends the form data for processing 
+- [ ] A) The browser sends the form data for processing
 - [ ] B) CSS creates a database
 - [ ] C) HTML becomes JavaScript
 - [ ] D) The monitor sends the data
@@ -159,7 +159,7 @@
 - [ ] D) Whether the database uses SQL
 
 **27.- Why shouldn't you trust frontend validation alone?**
-- [ ] A) Frontend can be bypassed 
+- [ ] A) Frontend can be bypassed
 - [ ] B) CSS can be disabled
 - [ ] C) HTML cannot contain forms
 - [ ] D) Browsers don't support validation
@@ -169,3 +169,21 @@
 - [ ] B) 201
 - [ ] C) 404
 - [ ] D) 500
+
+**29.- If an API returns 200 but the UI shows nothing, what should you investigate first?**
+- [ ] A) Frontend response handing/data mapping
+- [ ] B) Monitor brightness
+- [ ] C) CSS comments only
+- [ ] D) Domain registration
+
+**30.- Why is caching useful?**
+- [ ] A) It can reduce repeated network requests and improve response time 
+- [ ] B) It always increases server load
+- [ ] C) It removes authentication
+- [ ] D) It converts HTTP to HTML
+
+**31.- A search box calls an API on every keystroke. What is the best optimization?**
+- [ ] A) Increase image quality
+- [ ] B) Dabounce the API request
+- [ ] C) Add more API calls
+- [ ] D) Disable JavaScript
