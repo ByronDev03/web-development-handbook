@@ -80,7 +80,7 @@
 - [ ] C) Static Server Response
 - [ ] D) Server Storage Rendering
 
-**14.-;Which method converts JSON text into a JavaScript object?**
+**14.- Which method converts JSON text into a JavaScript object?**
 - [ ] A) JSON.toObject()
 - [ ] B) JSON.parse()
 - [ ] C) JSON.stringify()
@@ -171,7 +171,7 @@
 - [ ] D) 500
 
 **29.- If an API returns 200 but the UI shows nothing, what should you investigate first?**
-- [ ] A) Frontend response handing/data mapping
+- [ ] A) Frontend response handling/data mapping
 - [ ] B) Monitor brightness
 - [ ] C) CSS comments only
 - [ ] D) Domain registration
@@ -184,6 +184,6 @@
 
 **31.- A search box calls an API on every keystroke. What is the best optimization?**
 - [ ] A) Increase image quality
-- [ ] B) Dabounce the API request
+- [ ] B) Debounce the API request
 - [ ] C) Add more API calls
 - [ ] D) Disable JavaScript
