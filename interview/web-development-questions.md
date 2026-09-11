@@ -145,3 +145,27 @@
 - [ ] B) CSS
 - [ ] C) Browser font
 - [ ] D) HTML headings
+
+**25.- A user submits a login form. What should normally happen first?**
+- [ ] A) The browser sends the form data for processing 
+- [ ] B) CSS creates a database
+- [ ] C) HTML becomes JavaScript
+- [ ] D) The monitor sends the data
+
+**26.- A React/Angular/Vue application changes data but the UI doesn't update. Which issue is most logically worth investigating first?**
+- [ ] A) Whether state/data was updated in a way the framework detects 
+- [ ] B) Whether the monitor is connected
+- [ ] C) Whether HTML supports JavaScript
+- [ ] D) Whether the database uses SQL
+
+**27.- Why shouldn't you trust frontend validation alone?**
+- [ ] A) Frontend can be bypassed 
+- [ ] B) CSS can be disabled
+- [ ] C) HTML cannot contain forms
+- [ ] D) Browsers don't support validation
+
+**28.- A frontend sends a request to: `/api/users/10`. Which HTTP status code most appropriately indicates that the user doesn´t exist?**
+- [ ] A) 200
+- [ ] B) 201
+- [ ] C) 404
+- [ ] D) 500
