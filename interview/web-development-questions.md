@@ -133,3 +133,15 @@
 - [ ] B) sessionStorage
 - [ ] C) Database
 - [ ] D) Cookies always
+
+**23.- Which HTTP method is generally idempotent?**
+- [ ] A) POST
+- [ ] B) PUT
+- [ ] C) CONNECT
+- [ ] D) PATCH
+
+**24.- If an API returns 500, where should you primarily investigate?**
+- [ ] A) Server/backend
+- [ ] B) CSS
+- [ ] C) Browser font
+- [ ] D) HTML headings
