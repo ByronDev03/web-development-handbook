@@ -64,7 +64,7 @@ A structured collection of web development concepts, notes, and practical knowle
 ![Tools](https://img.shields.io/badge/Tools-4CAF50?logo=visualstudiocode&logoColor=white)
 
 - <img src="" width="16"/> [VS Code Extensions](tools/vscode-extensions.md)
-- <img src="" width="16"/> [Development Tools](tools/dev-tools.md)
+- 🛠️ [Development Tools](tools/dev-tools.md)
 - <img src="https://cdn.simpleicons.org/angular" width="16"/> [Angular Environment Setup](tools/angular-setup.md)
 - <img src="https://cdn.simpleicons.org/github" width="16"/> [SSH Setup for GitHub (Windows)](tools/ssh-setup-github-windows.md)
 - <img src="" width="16"/> [SSH Remote Connection (AWS)](tools/ssh-aws-connection.md)
