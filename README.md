@@ -15,7 +15,7 @@ A structured collection of web development concepts, notes, and practical knowle
 - 📡 [HTTP Status Codes](fundamentals/http-status-codes.md)
 - 🖥️ [Client - Server Model](fundamentals/client-server.md)
 - 🔄 [CORS](fundamentals/cors.md) 
-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" width="16"/> [JSON](fundamentals/json.md) 
+- <img src="https://cdn.simpleicons.org/json/ffffff" width="16"/> [JSON](fundamentals/json.md) 
 - 📓[Tech Acronyms](fundamentals/tech-acronyms.md) 
 
 ---
@@ -89,7 +89,7 @@ A structured collection of web development concepts, notes, and practical knowle
 
 ---
 
-## 🚀 About
+## ⭐ About
 
 This repository contains structured notes and concepts that I’ve learned and documented during my journey as a developer.
 
