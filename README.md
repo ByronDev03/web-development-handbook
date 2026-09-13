@@ -14,8 +14,8 @@ A structured collection of web development concepts, notes, and practical knowle
 - 🌐 [HTTP Methods](fundamentals/http-methods.md)
 - 📡 [HTTP Status Codes](fundamentals/http-status-codes.md)
 - 🖥️ [Client - Server Model](fundamentals/client-server.md)
-- <img src="" width="16"/> [CORS](fundamentals/cors.md) 
-- <img src="" width="16"/> [JSON](fundamentals/json.md) 
+-  [CORS](fundamentals/cors.md) 
+-  [JSON](fundamentals/json.md) 
 - 📓[Tech Acronyms](fundamentals/tech-acronyms.md) 
 
 ---
@@ -23,7 +23,7 @@ A structured collection of web development concepts, notes, and practical knowle
 ## ⚙️ Backend  
 ![Backend](https://img.shields.io/badge/Backend-000000?logo=server&logoColor=white)
 
-- <img src="https://cdn.simpleicons.org/node.js" width="16"/> [Node.js](backend/nodejs.md)
+- <img src="https://cdn.simpleicons.org/node.js" width="16"/> [Node.js](backend/node.js.md)
 - <img src="https://cdn.simpleicons.org/gnubash" width="16"/> [SSH Guide](backend/ssh.md)
 
 ---
@@ -67,7 +67,7 @@ A structured collection of web development concepts, notes, and practical knowle
 - 🛠️ [Development Tools](tools/dev-tools.md)
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg" width="16"/> [Angular Environment Setup](tools/angular-setup.md)
 - <img src="https://cdn.simpleicons.org/github" width="16"/> [SSH Setup for GitHub (Windows)](tools/ssh-setup-github-windows.md)
-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="16"/> [SSH Remote Connection (AWS)](tools/ssh-aws-connection.md)       
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" width="16"/> [SSH Remote Connection (AWS)](tools/ssh-aws-connection.md)       
           
 ---
 
