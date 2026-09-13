@@ -14,8 +14,8 @@ A structured collection of web development concepts, notes, and practical knowle
 - 🌐 [HTTP Methods](fundamentals/http-methods.md)
 - 📡 [HTTP Status Codes](fundamentals/http-status-codes.md)
 - 🖥️ [Client - Server Model](fundamentals/client-server.md)
--  [CORS](fundamentals/cors.md) 
--  [JSON](fundamentals/json.md) 
+- 🔄 [CORS](fundamentals/cors.md) 
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" width="16"/> [JSON](fundamentals/json.md) 
 - 📓[Tech Acronyms](fundamentals/tech-acronyms.md) 
 
 ---
@@ -55,7 +55,7 @@ A structured collection of web development concepts, notes, and practical knowle
 ## 📊 Methodologies  
 ![Agile](https://img.shields.io/badge/Agile-009688?logo=scrumalliance&logoColor=white)
 
-- <img src="https://cdn.simpleicons.org/scrumalliance" width="16"/> [SCRUM](methodologies/scrum.md)
+- 🏃 [SCRUM](methodologies/scrum.md)
 - <img src="https://cdn.simpleicons.org/trello" width="16"/> [KANBAN](methodologies/kanban.md)
 
 ---
