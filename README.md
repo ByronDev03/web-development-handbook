@@ -9,7 +9,7 @@ A structured collection of web development concepts, notes, and practical knowle
 # 📖 Table of Contents
 
 ## 🌐 Fundamentals  
-![Fundamentals](https://img.shields.io/badge/Fundamentals-0A66C2?logo=&logoColor=white)
+![Fundamentals](https://img.shields.io/badge/Fundamentals-0A66C2?logo=bookstack&logoColor=white)
 
 - 🌐 [HTTP Methods](fundamentals/http-methods.md)
 - 📡 [HTTP Status Codes](fundamentals/http-status-codes.md)
@@ -21,7 +21,7 @@ A structured collection of web development concepts, notes, and practical knowle
 ---
 
 ## ⚙️ Backend  
-![Backend](https://img.shields.io/badge/Backend-000000?logo=server&logoColor=white)
+![Backend](https://img.shields.io/badge/Backend-000000?logo=nodedotjs&logoColor=white)
 
 - <img src="https://cdn.simpleicons.org/node.js" width="16"/> [Node.js](backend/node.js.md)
 - <img src="https://cdn.simpleicons.org/gnubash" width="16"/> [SSH Guide](backend/ssh.md)
@@ -29,7 +29,7 @@ A structured collection of web development concepts, notes, and practical knowle
 ---
 
 ## 🎨 Frontend  
-![Frontend](https://img.shields.io/badge/Frontend-DD0031?logo=&logoColor=white)
+![Frontend](https://img.shields.io/badge/Frontend-DD0031?logo=html5&logoColor=white)
 
 - 
 
@@ -46,14 +46,14 @@ A structured collection of web development concepts, notes, and practical knowle
 ---
 
 ## 💼 Business
-![Business]()
+![Business](https://img.shields.io/badge/Business-795548?logo=sap&logoColor=white)
 
 - 🏢 [CRM & ERP](business/CRM&ERP.md)
 
 ---
 
 ## 📊 Methodologies  
-![Agile](https://img.shields.io/badge/Agile-009688?logo=scrumalliance&logoColor=white)
+![Methodologies](https://img.shields.io/badge/Methodologies-009688?logoColor=white)
 
 - 🏃 [SCRUM](methodologies/scrum.md)
 - <img src="https://cdn.simpleicons.org/trello" width="16"/> [KANBAN](methodologies/kanban.md)
@@ -61,7 +61,7 @@ A structured collection of web development concepts, notes, and practical knowle
 ---
 
 ## 🧰 Tools  
-![Tools](https://img.shields.io/badge/Tools-4CAF50?logo=visualstudiocode&logoColor=white)
+![Tools](https://img.shields.io/badge/Tools-4CAF50?logo=github&logoColor=white)
 
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="16"/> [VS Code Extensions](tools/vscode-extensions.md)
 - 🛠️ [Development Tools](tools/dev-tools.md)
@@ -72,6 +72,7 @@ A structured collection of web development concepts, notes, and practical knowle
 ---
 
 ## 🚀 DevOps
+![DevOps](https://img.shields.io/badge/DevOps-2496ED?logo=docker&logoColor=white)
 
 -
 -
