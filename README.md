@@ -48,7 +48,7 @@ A structured collection of web development concepts, notes, and practical knowle
 ## 💼 Business
 ![Business]()
 
-- <img src="" width="16"/> [CRM & ERP](business/CRM&ERP.md)
+- 🏢 [CRM & ERP](business/CRM&ERP.md)
 
 ---
 
@@ -66,7 +66,7 @@ A structured collection of web development concepts, notes, and practical knowle
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="16"/> [VS Code Extensions](tools/vscode-extensions.md)
 - 🛠️ [Development Tools](tools/dev-tools.md)
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg" width="16"/> [Angular Environment Setup](tools/angular-setup.md)
-- <img src="https://cdn.simpleicons.org/github" width="16"/> [SSH Setup for GitHub (Windows)](tools/ssh-setup-github-windows.md)
+- <img src="https://cdn.simpleicons.org/github/ffffff" width="16"/> [SSH Setup for GitHub (Windows)](tools/ssh-setup-github-windows.md)
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" width="16"/> [SSH Remote Connection (AWS)](tools/ssh-aws-connection.md)       
           
 ---
@@ -85,7 +85,7 @@ A structured collection of web development concepts, notes, and practical knowle
 
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="16"/> [Java Interview Questions](interview/java-interview.md)
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg" width="16"/> [Angular Interview Questions](interview/angular-interview.md)
-- <img src="" width="16"/> [Web Development Questions](interview/web-development-questions.md)
+- 👨🏻‍💻 [Web Development Questions](interview/web-development-questions.md)
 
 ---
 
