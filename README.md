@@ -11,12 +11,12 @@ A structured collection of web development concepts, notes, and practical knowle
 ## 🌐 Fundamentals  
 ![Fundamentals](https://img.shields.io/badge/Fundamentals-0A66C2?logo=&logoColor=white)
 
-- <img src="" width="16"/> [HTTP Methods](fundamentals/http-methods.md)
-- <img src="" width="16"/> [HTTP Status Codes](fundamentals/http-status-codes.md)
-- <img src="" width="16"/> [Client - Server Model](fundamentals/client-server.md)
+- 🌐 [HTTP Methods](fundamentals/http-methods.md)
+- 📡 [HTTP Status Codes](fundamentals/http-status-codes.md)
+- 🖥️ [Client - Server Model](fundamentals/client-server.md)
 - <img src="" width="16"/> [CORS](fundamentals/cors.md) 
 - <img src="" width="16"/> [JSON](fundamentals/json.md) 
-- <img src="https://cdn.simpleicons.org/bookstack" width="16"/> [Tech Acronyms](fundamentals/tech-acronyms.md) 
+- 📓[Tech Acronyms](fundamentals/tech-acronyms.md) 
 
 ---
 
@@ -63,15 +63,16 @@ A structured collection of web development concepts, notes, and practical knowle
 ## 🧰 Tools  
 ![Tools](https://img.shields.io/badge/Tools-4CAF50?logo=visualstudiocode&logoColor=white)
 
-- <img src="" width="16"/> [VS Code Extensions](tools/vscode-extensions.md)
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="16"/> [VS Code Extensions](tools/vscode-extensions.md)
 - 🛠️ [Development Tools](tools/dev-tools.md)
-- <img src="https://cdn.simpleicons.org/angular" width="16"/> [Angular Environment Setup](tools/angular-setup.md)
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg" width="16"/> [Angular Environment Setup](tools/angular-setup.md)
 - <img src="https://cdn.simpleicons.org/github" width="16"/> [SSH Setup for GitHub (Windows)](tools/ssh-setup-github-windows.md)
-- <img src="" width="16"/> [SSH Remote Connection (AWS)](tools/ssh-aws-connection.md)
-
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="16"/> [SSH Remote Connection (AWS)](tools/ssh-aws-connection.md)       
+          
 ---
 
-## DevOps
+## 🚀 DevOps
+
 -
 -
 -
@@ -83,7 +84,7 @@ A structured collection of web development concepts, notes, and practical knowle
 ![Interview](https://img.shields.io/badge/Interview-6A1B9A?logo=readthedocs&logoColor=white)
 
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="16"/> [Java Interview Questions](interview/java-interview.md)
-- <img src="https://cdn.simpleicons.org/angular" width="16"/> [Angular Interview Questions](interview/angular-interview.md)
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg" width="16"/> [Angular Interview Questions](interview/angular-interview.md)
 - <img src="" width="16"/> [Web Development Questions](interview/web-development-questions.md)
 
 ---
