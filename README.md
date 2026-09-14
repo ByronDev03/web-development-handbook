@@ -25,6 +25,7 @@ A structured collection of web development concepts, notes, and practical knowle
 
 - <img src="https://cdn.simpleicons.org/node.js" width="16"/> [Node.js](backend/node.js.md)
 - <img src="https://cdn.simpleicons.org/gnubash" width="16"/> [SSH Guide](backend/ssh.md)
+- 📍[Endpoint](backend/endpoint.md) 
 
 ---
 
