@@ -9,6 +9,47 @@ Un endpoint es una URL específica a la que puedes acceder para realizar una acc
 
 ---
 
+## ¿Cómo funciona?
+
+
+---
+
+## Partes de un Endpoint
+
+
+---
+
+## Respuesta de un Endpoint
+Los endpoints suelen devolver datos en formatos como JSON.
+
+```JSON
+{
+    "id": 123,
+    "nombre": "Ana Rosa",
+    "email": "ana@example.com",
+    "rol": "admin"
+}
+```
+
+---
+
+## Ejemplo práctico
+
+
+---
+
+## Métodos HTTP más comunes en endpoints REST
+
+
+---
+
+## ¿Para qué sirven los Endpoints?
+- Permiten que diferentes aplicaciones se comuniquen entre sí.
+- Facilitan el acceso a datos y funcionalidades de un sistema desde el exterior.
+- Son la base para integrar servicios y construir aplicaciones modernas.
+
+---
+
 ## Buenas Prácticas
 - Usar nombres de recursos en plural ( */usuarios en lugar de /usuario* ). 
 - Usar métodos HTTP adecuados para cada acción. 
