@@ -1,8 +1,7 @@
-<h1 align="center">Node.js</h1>
+<h1 align="center">¿QUÉ ES NODE.JS</h1>
 
 ---
 
-## ¿Qué es?
 Es un **entorno de ejecución de JavaScript** que te permite usar este lenguaje **fuera del navegador,** por ejemplo en tu computadora o en un servidor.
 
 Antes, **JavaScript solo se ejecutaba dentro de un navegador web** (como Chrome o Firefox).
