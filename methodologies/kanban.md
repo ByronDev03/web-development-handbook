@@ -88,5 +88,5 @@ El ticket es como un *"papelito"* o *"nota digital"* que representa esa tarea es
 
 ## Demostración de SCRUM y KANBAN
 <div align="center">
-  <img src="imgs/scrum-kanban.png" width="600" alt="Demostración de SCRUM y KANBAN"/>
+  <img src="/imgs/scrum-kanban.png" width="600" alt="Demostración de SCRUM y KANBAN"/>
 </div>
