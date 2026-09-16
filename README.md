@@ -24,8 +24,9 @@ A structured collection of web development concepts, notes, and practical knowle
 ![Backend](https://img.shields.io/badge/Backend-000000?logo=nodedotjs&logoColor=white)
 
 - <img src="https://cdn.simpleicons.org/node.js" width="16"/> [Node.js](backend/node.js.md)
-- <img src="https://cdn.simpleicons.org/gnubash" width="16"/> [SSH Guide](backend/ssh.md)
 - 📍[Endpoint](backend/endpoint.md) 
+- 🔌[API](backend/api.md) 
+- 🧩 [ORM](backend/orm.md)
 
 ---
 
@@ -75,8 +76,8 @@ A structured collection of web development concepts, notes, and practical knowle
 ## 🚀 DevOps
 ![DevOps](https://img.shields.io/badge/DevOps-2496ED?logo=docker&logoColor=white)
 
--
--
+- 🔑 [SSH](devops/ssh.md)
+- 🔐 [Environment Variables](devops/env.md)
 -
 -
 
