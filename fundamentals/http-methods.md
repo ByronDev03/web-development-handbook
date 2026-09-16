@@ -35,5 +35,5 @@ Tambien llamados *"verbos HTTP"* son acciones que indican que operación se requ
 - **DELETE** Eliminar
 
 <div align="center">
-  <img src="/imgs/http-methods.png" width="600" alt="seo" />
+  <img src="/imgs/http-methods.avif" width="600" alt="Métodos HTTP" />
 </div>

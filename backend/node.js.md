@@ -196,7 +196,7 @@ Gracias al Event Loop:
 ## Diagrama del funcionamiento del Event Loop en Node.js
 
 <div align="center">
-  <img src="/imgs/even-loop.png" width="600" alt="Even Loop" />
+  <img src="/imgs/event-loop.avif" width="600" alt="Event Loop" />
 </div>
 
 **1. Call Stack (Pila de llamadas)**

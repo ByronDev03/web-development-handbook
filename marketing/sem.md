@@ -85,7 +85,7 @@ Sirve cuando buscas *visibilidad y reconocimiento de marca.*
 ---
 
 <div align="center">
-  <img src="/imgs/sem.png" width="600" alt="seo"/>
+  <img src="/imgs/sem.avif" width="600" alt="sem"/>
 </div>
 
 ---

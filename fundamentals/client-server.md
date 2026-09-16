@@ -77,7 +77,7 @@ Es como un restaurante: el **cliente** es quien pide la comida, y el **servidor*
 
 ## Diagrama del funcionamiento del modelo cliente-servidor
 <div align="center">
-  <img src="/imgs/client-server-model.png" width="600" alt="Diagrama cliente-servidor" />
+  <img src="/imgs/client-server-model.avif" width="600" alt="Diagrama cliente-servidor" />
 </div>
 
 ---

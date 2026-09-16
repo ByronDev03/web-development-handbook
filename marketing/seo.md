@@ -71,5 +71,5 @@ SEO significa *Search Engine Optimization* (Optmización en Motores de Búsqueda
 **Resultado:** En 6 meses, la empresa empieza a aparecer en Google sin pagar anuncios cada vez que alguien busca *"Limpiador ecológico barato"*
 
 <div align="center">
-  <img src="/imgs/seo.png" width="600" alt="seo"/>
+  <img src="/imgs/seo.avif" width="600" alt="seo"/>
 </div>

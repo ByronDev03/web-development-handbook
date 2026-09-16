@@ -37,7 +37,7 @@ Cuando haces una petición AJAX/Fetch desde un origen distinto, el navegador:
 
 ## Diagrama del funcionamiento de CORS
 <div align="center">
-  <img src="/imgs/cors.png" width="600" alt="Diagrama cliente-servidor" />
+  <img src="/imgs/cors.avif" width="600" alt="Diagrama cliente-servidor" />
 </div>
 
 ---
