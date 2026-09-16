@@ -86,7 +86,7 @@ A structured collection of web development concepts, notes, and practical knowle
 ## 🤖 Artificial Intelligence
 ![Artificial Intelligence](https://img.shields.io/badge/Artificial%20Intelligence-7C3AED?logo=openai&logoColor=white)
 
--
+- 💻 [AI-Assisted Development](artificial_intelligence/ai-assisted_development.md)
 -
 -
 
