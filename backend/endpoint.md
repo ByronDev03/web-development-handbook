@@ -11,14 +11,14 @@ Un endpoint es una URL específica a la que puedes acceder para realizar una acc
 
 ## ¿Cómo funciona?
 <div align="center">
-  <img src="/imgs/endpoint-diagram.png" width="600" alt="Diagrama endpoint" />
+  <img src="/imgs/endpoint-diagram.avif" width="600" alt="Diagrama endpoint" />
 </div>
 
 ---
 
 ## Partes de un Endpoint
 <div align="center">
-  <img src="/imgs/parts_endpoint.png" width="600" alt="Diagrama endpoint" />
+  <img src="/imgs/parts-endpoint.avif" width="600" alt="Partes de un endpoint" />
 </div>
 
 - <p style="text-align: left; color: green; font-weight: bold;">
@@ -73,18 +73,19 @@ Tambíen pueden devolver códigos de estado HTTP:
 ## Ejemplo práctico
 Supongamos una API de usuarios: `https://api-ejemplo.com/v1/usuarios`
 
-| Método            | Endpoint             | Descripción                        | Ejemplo de Uso               |
-| :---:             | :---                 | :---                               | :---                         |
-|                   | /v1/usuarios         | Obtener todos los usuarios         | **GET** /v1/usuarios         |
-|                   | /v1/usuarios/123     | Obtener un usuario por ID          | **GET** /v1/usuarios/123     |
-|                   | /v1/usuarios         | Crear un nuevo usuario             | **POST** /v1/usuarios        |
-|                   | /v1/usuarios/123     | Actualizar un usuario completo     | **PUT** /v1/usuarios/123     |
-|                   | /v1/usuarios/123     | Actualizar parcialmente un usuario | **PATCH** /v1/usuarios/123   |
-|                   | /v1/usuarios/123     | Eliminar un usuario                | **DELETE** /v1/usuarios/123  |
+| Método                                                              | Endpoint             | Descripción                        | Ejemplo de Uso               |
+| :---:                                                               | :---                 | :---                               | :---                         |
+| <img src="/imgs/get.avif" width="115" alt="Método GET"/>            | /v1/usuarios         | Obtener todos los usuarios         | **GET** /v1/usuarios         |
+| <img src="/imgs/getbyid.avif" width="115" alt="Método GET by ID"/>  | /v1/usuarios/123     | Obtener un usuario por ID          | **GET** /v1/usuarios/123     |
+| <img src="/imgs/post.avif" width="115" alt="Método POST"/>          | /v1/usuarios         | Crear un nuevo usuario             | **POST** /v1/usuarios        |
+| <img src="/imgs/put.avif" width="115" alt="Método PUT"/>            | /v1/usuarios/123     | Actualizar un usuario completo     | **PUT** /v1/usuarios/123     |
+| <img src="/imgs/patch.avif" width="115" alt="Método PATCH"/>        | /v1/usuarios/123     | Actualizar parcialmente un usuario | **PATCH** /v1/usuarios/123   |
+| <img src="/imgs/delete.avif" width="115" alt="Método DELETE"/>      | /v1/usuarios/123     | Eliminar un usuario                | **DELETE** /v1/usuarios/123  |
                        
 ---
 
 ## Métodos HTTP más comunes en endpoints REST
+
 
 
 ---
