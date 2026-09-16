@@ -82,6 +82,15 @@ A structured collection of web development concepts, notes, and practical knowle
 
 ---
 
+## 🤖 Artificial Intelligence
+![Artificial Intelligence](https://img.shields.io/badge/Artificial%20Intelligence-7C3AED?logo=openai&logoColor=white)
+
+-
+-
+-
+
+---
+
 ## 🎯 Interview Preparation  
 ![Interview](https://img.shields.io/badge/Interview-6A1B9A?logo=readthedocs&logoColor=white)
 
