@@ -115,7 +115,6 @@ Una API es la forma en que las aplicaciones se comunican y comparten informació
 ---
 
 > [!IMPORTANT]
-> **¡LAS APIS ESTAN EN TODAS PARTES!**
-> Desde redes sociales, mapas, pagos en línea, hasta en el clima que se consulta a diario.
-> Son la base de muchas aplicaciones modernas.
+> **¡LAS APIS ESTAN EN TODAS PARTES!** <br>
+> Desde redes sociales, mapas, pagos en línea, hasta en el clima que se consulta a diario. Son la base de muchas aplicaciones modernas. 
 
