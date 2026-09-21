@@ -33,8 +33,6 @@ A structured collection of web development concepts, notes, and practical knowle
 ## 🎨 Frontend  
 ![Frontend](https://img.shields.io/badge/Frontend-DD0031?logo=html5&logoColor=white)
 
-- 
-
 ---
 
 ## 🔎 Marketing  
@@ -78,8 +76,6 @@ A structured collection of web development concepts, notes, and practical knowle
 
 - 🔑 [SSH](devops/ssh.md)
 - 🔐 [Environment Variables](devops/env.md)
--
--
 
 ---
 
@@ -87,8 +83,6 @@ A structured collection of web development concepts, notes, and practical knowle
 ![Artificial Intelligence](https://img.shields.io/badge/Artificial%20Intelligence-7C3AED?logo=openai&logoColor=white)
 
 - 💻 [AI-Assisted Development](artificial_intelligence/ai-assisted_development.md)
--
--
 
 ---
 
