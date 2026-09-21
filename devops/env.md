@@ -46,10 +46,17 @@ DB_PASSWORD=secreto123
 ---
 
 ## ¿Dónde y cómo se usa?
+- **En frameworks populares**
+    -  <img src="https://cdn.simpleicons.org/node.js" width="20"/> **Node.js:** `process.env.MI_CLAVE`
+    - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" width="20"/> **PHP:** `$_ENV['MI_CLAVE']`
+    - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="20"/> **Python:** `os.getenv('MI_CLAVE')`
+    - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" width="20"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" width="20"/> **Java (Spring):** `@Value("${mi.clave}")`
 
-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" width="20"/> Next.js
-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" width="20"/> Laravel
-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" width="20"/> Django
+- **En frameworks populares**
+    - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" width="20"/> **Laravel:**
+    - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" width="20"/> **Next.js:**
+    - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" width="20"/> **Django:**
+    - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" width="20"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="20"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg" width="20"/> **Vite / React / Vue:**
 
 ---
 
