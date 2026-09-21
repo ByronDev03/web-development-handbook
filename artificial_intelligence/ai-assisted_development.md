@@ -56,7 +56,7 @@ El desarrollador mantiene el control, **revisa y valida** todo lo que genera la 
 ---
 
 ## Herramientas populares
-- <img src="https://cdn.simpleicons.org/githubcopilot" width="20"/> **GitHub Copilot:** Asistente de código con IA
+- <img src="https://cdn.simpleicons.org/githubcopilot/ffffff" width="20"/> **GitHub Copilot:** Asistente de código con IA
 - <img src="https://cdn.simpleicons.org/replit" width="20"/> **Replit Agent:** Asistente para desarrollo en la nube
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jetbrains/jetbrains-original.svg" width="25"/>**JetBrains AI Assistant:** IA integrada en IDEs JetBrains
 - <img src="https://cdn.simpleicons.org/qodo" width="20"/> **Qodo (antes CodiumAI):** IA para pruebas y calidad de código
