@@ -102,8 +102,47 @@ DB_PASSWORD=secreto123
 
 ---
 
-## Ejemplo: Distintos entornos
+## .ENV.EXAMPLE
+Compartir un archivo de ejemplo sin los valores reales para que otros desarrolladores sepan qué variables necesit el proyecto.
 
+**.env.example**
+```Bash
+APP_NAME=MiApp
+APP_ENV=local
+APP_DEBUG=true
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_DATABASE=mi_app
+DB_USERNAME=
+DB_PASSWORD=
+```
+
+- Cada desarrollador copia este archivo y lo renomra a .env, luego coloca sus propios valores.
+    ```Bash
+    cp .env.example .env
+    ```
+
+---
+
+## Ejemplo: Distintos entornos
+**.env.development**
+```Bash
+APP_ENV=development
+APP_DEBUG=true
+DB_HOST=127.0.0.1
+DB_DATABASE=mi_app_dev
+```
+
+**.env.production**
+```Bash
+APP_ENV=production
+APP_DEBUG=false
+DB_HOST=db.miapp.com
+DB_DATABASE=mi_app_prod
+```
+
+> [!IMPORTANT]
+> La aplicación debe cargar el archivo correcto según el entorno deonde se ejecute.
 
 ---
 
