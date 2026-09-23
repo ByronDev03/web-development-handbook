@@ -9,10 +9,51 @@ Permite trabajar con una base de datos utilizando objetos y código en lugar de 
 ## ¿Qué es un ORM?
 Un ORM (Object Relational Mapping) es una técnica de programación que convierte datos entre sistemas incompatibles utilizando un lenguaje orientado a objetos.
 
+- **Menos SQL manual:** Evita escribir consultas SQL complejas y repetitivas.
+- **Más productividad:** Permite enfocarte en la lógica de negocio.
+- **Menos errores:** Reduce errores comunes en consultas SQL.
+- **Portabilidad:** Cambia de base de datos con menos esfuerzo.
+- **Mantenible:** Código más limpio, legible y fácil de matener.
+
 ---
 
 ## ¿Cómo funciona?
+1. **Definir modelo:**  Se representan las tablas de la base de datos como clases u objetos.
+    ```Bash
+    class Usuario {
+        id:      number
+        nombre:  string
+        email:   string
+    }
+    ```
 
+2. **Usar el ORM:** Interactúas con los datos usando métodos del ORM, no SQL directo.
+    ```Bash
+    const usuario = await Usuario
+        .findUnique({
+            where: { id: 1 }
+        })
+    ```
+
+3. **El ORM traduce:** El ORM convierte tu código en cosnultas SQL optimizadas.
+    ```SQL
+    SELECT * 
+    FROM usuarios
+    WHERE id = 1;
+    ```
+
+4. **Se obtienen los resultados:** El ORM convierte el resultado de la consulta en objetos del lenguaje que se esta usando.
+    ```Bash
+    Usuario {
+        id: 1,
+        nombre: "Ana",
+        email: "ana@ej.com"
+    }
+    ```
+
+<div align="center">
+  <img src="/imgs/work-orm.avif" width="600" alt="¿Cómo funciona un ORM?" />
+</div>
 
 ---
 
@@ -67,15 +108,38 @@ await prisma.usuario.delete({
 ---
 
 ## SQL manual vs ORM
+- **Con SQL manual**
+    ```SQL
+    SELECT u.id, u.nombre, u.email 
+    FROM usuarios u
+    WHERE u.email = 'anaej.com';
+    ```
 
+    - ❌ Se escribe más código
+    - ❌ Más propenso a errores
+    - ❌ Difícil de mantener
+    - ❌ Menos portátil
+
+- **Con ORM**
+    ```Bash
+    const usuario = await Usuario
+      .findUnique({
+        where: { email: 'ana@ej.com' }
+      })
+    ```
+
+    - ✅ Menos código
+    - ✅ Menos errores
+    - ✅ Facil de mantener
+    - ✅ Más portátil
 
 ---
 
 ## ¿Cuándo usar un ORM?
-- 
--
-- 
--
+- **Proyectos medianos y grandes:** Mejora la productividad del equipo.
+- **Equipos con diferentes niveles de SQL:** Permite a todos trabajar sin ser expertos en SQL.
+- **Desarrollo ágil:** Itera más rapido y enfócate en la lógica de negocio.
+- **Bases de datos relacionales:** Ideal para MySQL, PostgreSQL, SQL Server, etc.
 
 
 ---
