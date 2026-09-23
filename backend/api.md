@@ -2,7 +2,7 @@
 
 ---
 
-Una API (Interfaz de Programación de Aplicaciones) es un conjunto de reglas y protocolos que permite que difrentes aplicaciones se comuniquen entre sí para intercambiar datos y funcionalidades.
+Una API (del inglés, application programming interface, en español, interfaz de programación de aplicaciones) es un conjunto de reglas y protocolos que permite que difrentes aplicaciones se comuniquen entre sí para intercambiar datos y funcionalidades.
 
 ---
 

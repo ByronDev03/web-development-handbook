@@ -7,7 +7,7 @@ Permite trabajar con una base de datos utilizando objetos y código en lugar de 
 ---
 
 ## ¿Qué es un ORM?
-Un ORM (Object Relational Mapping) es una técnica de programación que convierte datos entre sistemas incompatibles utilizando un lenguaje orientado a objetos.
+Un ORM (del inglés, object-relational mapping, en español, mapeo objeto-relacional) es una técnica de programación que convierte datos entre sistemas incompatibles utilizando un lenguaje orientado a objetos.
 
 - **Menos SQL manual:** Evita escribir consultas SQL complejas y repetitivas.
 - **Más productividad:** Permite enfocarte en la lógica de negocio.
