@@ -58,11 +58,11 @@ Un ORM (Object Relational Mapping) es una técnica de programación que conviert
 ---
 
 ## ORM populares
-- <img src="https://cdn.simpleicons.org/prisma" width="20"/> Prisma
+- <img src="https://cdn.simpleicons.org/prisma/ffffff" width="20"/> Prisma
 - <img src="https://cdn.simpleicons.org/typeorm" width="20"/> TypeORM
 - <img src="https://cdn.simpleicons.org/sequelize" width="20"/> Sequelize
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hibernate/hibernate-original.svg" width="20"/> Hibernate
-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/entityframeworkcore/entityframeworkcore-original.svg" width="20"/> Entity Framework
+- Entity Framework
 
 ---
 
