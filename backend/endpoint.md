@@ -91,9 +91,9 @@ Supongamos una API de usuarios: `https://api-ejemplo.com/v1/usuarios`
 ---
 
 ## ¿Para qué sirven los Endpoints?
-- 📡 Permiten que diferentes aplicaciones se comuniquen entre sí.
-- 🌐 Facilitan el acceso a datos y funcionalidades de un sistema desde el exterior.
-- ⚙️ Son la base para integrar servicios y construir aplicaciones modernas.
+- Permiten que diferentes aplicaciones se comuniquen entre sí.
+- Facilitan el acceso a datos y funcionalidades de un sistema desde el exterior.
+- Son la base para integrar servicios y construir aplicaciones modernas.
 
 ---
 
