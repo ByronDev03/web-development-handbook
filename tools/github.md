@@ -54,18 +54,18 @@ Es una plataforma web para alojar proyectos que usan Git. Permite colaborar con 
     ```
 
 7. **Abrir Pull Request:** Solicitar revisión y fusionar los cambios agregados.
-    > [!NOTE]
-    > En GitHub, para abrir un Pull Request se abre desde la rama que estas hacia main.
+> [!NOTE]
+> En GitHub, para abrir un Pull Request se abre desde la rama que estas hacia main.
 
 8. **Revisar y fusionar (merge):** Una vez aprobado, se fusiona la rama a main.
-    > [!NOTE]
-    > El código ahora forma parte del proyecto.
+> [!NOTE]
+> El código ahora forma parte del proyecto.
 
 ---
 
 ## ¿Cómo se ve en Github?
 <div align="center">
-  <img src="/imgs/profile-github.avif" width="600" alt="Perfil en GitHub"/>
+  <img src="/imgs/repository-github.avif" width="600" alt="Repositorio en GitHub"/>
 </div>
 
 ---
@@ -78,8 +78,11 @@ Es una plataforma web para alojar proyectos que usan Git. Permite colaborar con 
 ---
 
 ## Archivo README.md
-Es la tarjeta de presentación de todo proyecto.
+Es la tarjeta de presentación de todo proyecto.<br>
 Explica de qué trata y cómo usarlo.
+<div align="center">
+  <img src="/imgs/readme.avif" width="600" alt="README" />
+</div>
 
 ---
 
