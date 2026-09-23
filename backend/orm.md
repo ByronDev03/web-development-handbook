@@ -15,6 +15,10 @@ Un ORM (Object Relational Mapping) es una técnica de programación que conviert
 - **Portabilidad:** Cambia de base de datos con menos esfuerzo.
 - **Mantenible:** Código más limpio, legible y fácil de matener.
 
+<div align="center">
+  <img src="/imgs/orm.avif" width="600" alt="¿Qué es un ORM?" />
+</div>
+
 ---
 
 ## ¿Cómo funciona?
