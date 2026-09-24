@@ -35,6 +35,13 @@ A structured collection of web development concepts, notes, and practical knowle
 
 ---
 
+## 🧠 Software Engineering
+![Software Engineering](https://img.shields.io/badge/Software%20Engineering-8E44AD?logoColor=white)
+
+- 🎨 [Design Patterns](https://refactoring.guru/es/design-patterns)
+
+---
+
 ## 🔎 Marketing  
 ![Marketing](https://img.shields.io/badge/Marketing-FFB400?logo=googleads&logoColor=white)
 
@@ -56,21 +63,7 @@ A structured collection of web development concepts, notes, and practical knowle
 ![Methodologies](https://img.shields.io/badge/Methodologies-009688?logoColor=white)
 
 - 🏃 [SCRUM](methodologies/scrum.md)
-- <img src="https://cdn.simpleicons.org/trello" width="16"/> [KANBAN](methodologies/kanban.md)
-
----
-
-## 🧰 Tools  
-![Tools](https://img.shields.io/badge/Tools-4CAF50?logo=github&logoColor=white)
-
-- <img src="https://cdn.simpleicons.org/github/ffffff" width="16"/> [GitHub](tools/github.md)
-- <img src="https://cdn.simpleicons.org/git" width="16"/> [Git](tools/git.md)
-    - 📝[Conventional Commits](https://www.conventionalcommits.org/es/v1.0.0/)
-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="16"/> [VS Code Extensions](tools/vscode-extensions.md)
-- 🛠️ [Development Tools](tools/dev-tools.md)
-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg" width="16"/> [Angular Environment Setup](tools/angular-setup.md)
-- <img src="https://cdn.simpleicons.org/github/ffffff" width="16"/> [SSH Setup for GitHub (Windows)](tools/ssh-setup-github-windows.md)
-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" width="16"/> [SSH Remote Connection (AWS)](tools/ssh-aws-connection.md)       
+- <img src="https://cdn.simpleicons.org/trello" width="16"/> [KANBAN](methodologies/kanban.md)   
           
 ---
 
@@ -86,6 +79,20 @@ A structured collection of web development concepts, notes, and practical knowle
 ![Artificial Intelligence](https://img.shields.io/badge/Artificial%20Intelligence-7C3AED?logo=openai&logoColor=white)
 
 - 💻 [AI-Assisted Development](artificial_intelligence/ai-assisted_development.md)
+
+---
+
+## 🧰 Tools  
+![Tools](https://img.shields.io/badge/Tools-4CAF50?logo=github&logoColor=white)
+
+- <img src="https://cdn.simpleicons.org/github/ffffff" width="16"/> [GitHub](tools/github.md)
+- <img src="https://cdn.simpleicons.org/git" width="16"/> [Git](tools/git.md)
+    - 📝[Conventional Commits](https://www.conventionalcommits.org/es/v1.0.0/)
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="16"/> [VS Code Extensions](tools/vscode-extensions.md)
+- 🛠️ [Development Tools](tools/dev-tools.md)
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg" width="16"/> [Angular Environment Setup](tools/angular-setup.md)
+- <img src="https://cdn.simpleicons.org/github/ffffff" width="16"/> [SSH Setup for GitHub (Windows)](tools/ssh-setup-github-windows.md)
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" width="16"/> [SSH Remote Connection (AWS)](tools/ssh-aws-connection.md)    
 
 ---
 
