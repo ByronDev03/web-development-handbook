@@ -72,7 +72,7 @@ Es una plataforma web para alojar proyectos que usan Git. Permite colaborar con 
 
 ## Ramas: ejemplo visual
 <div align="center">
-  <img src="/imgs/branches.avif" width="600" alt="Ramas"/>
+  <img src="/imgs/branches-github.avif" width="600" alt="Ramas"/>
 </div>
 
 ---
