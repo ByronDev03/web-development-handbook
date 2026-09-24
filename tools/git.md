@@ -97,11 +97,11 @@ dist/
 </div>
 
 **Comando útiles**
-`git branch` → Lista las ramas.
-`git branch <nombre>` → Crea una nuevas rama.
-`git checkout <rama>` → Cambia de rama.
-`git merge <rama>` → Fusiona cambios de otra rama.
-`git branch -d <rama>` → Elimina una rama (ya fusionadas).
+- `git branch` → Lista las ramas.
+- `git branch <nombre>` → Crea una nuevas rama.
+- `git checkout <rama>` → Cambia de rama.
+- `git merge <rama>` → Fusiona cambios de otra rama.
+- `git branch -d <rama>` → Elimina una rama (ya fusionadas).
 
 ---
 
