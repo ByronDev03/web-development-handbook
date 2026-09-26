@@ -1,8 +1,8 @@
 <h1 align="center">¿QUÉ ES UNA API?</h1>
 
----
-
+<p align="center">
 Una API (del inglés, application programming interface, en español, interfaz de programación de aplicaciones) es un conjunto de reglas y protocolos que permite que difrentes aplicaciones se comuniquen entre sí para intercambiar datos y funcionalidades.
+</p>
 
 ---
 
