@@ -85,15 +85,15 @@ Supongamos una API de usuarios: `https://api-ejemplo.com/v1/usuarios`
 ---
 
 ## Métodos HTTP más comunes en endpoints REST
-<img src="https://api.iconify.design/mdi/magnify.svg?color=%23ffffff" width="22"/>
+<img src="https://api.iconify.design/bi/search.svg?color=%23ffffff" width="22"/>
 
-<img src="https://api.iconify.design/mdi/plus-circle-outline.svg?color=%23ffffff" width="22"/>
+<img src="https://api.iconify.design/bi/plus-circle.svg?color=%23ffffff" width="22"/>
 
-<img src="https://api.iconify.design/mdi/pencil-outline.svg?color=%23ffffff" width="22"/>
+<img src="https://api.iconify.design/bi/pencil.svg?color=%23ffffff" width="22"/>
 
-<img src="https://api.iconify.design/mdi/file-edit-outline.svg?color=%23ffffff" width="22"/>
+<img src="https://api.iconify.design/bi/pencil-square.svg?color=%23ffffff" width="22"/>
 
-<img src="https://api.iconify.design/mdi/delete-outline.svg?color=%23ffffff" width="22"/>
+<img src="https://api.iconify.design/bi/trash.svg?color=%23ffffff" width="22"/>
 
 
 ---
