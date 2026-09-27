@@ -10,7 +10,7 @@ Permite conectarte y administrar servidores remotos mediante una conexión cifra
 SSH (Secure Shell) es un protocolo de red que permite conectarse a un servidro remoto de forma segura. <br>
 Cifra toda la comunicación para proteger credenciales, comandos y datos.
 
-- **Seguro:** Cifra la conexión y evita escuchas o ataques.
+- **Seguro:** Cifra la conexión y protege contra la interceptación de datos.
 - **Remoto:** Accede y administra servidores desde cualquier lugar.
 - **Versátil:** Útil para administración, automatización y DevOps.
 
@@ -34,6 +34,22 @@ Cifra toda la comunicación para proteger credenciales, comandos y datos.
 
 ---
 
+## Autenticación
+- **Contraseña:** El método más común. Menos seguro si la contraseña es débil.
+<div align="center">
+  <img src="/imgs/ssh-diagram3.1.avif" width="100" alt="Llave pública" />
+</div>
+
+- **Llave pública (Recomendado):** Más seguro. Usa un par de llaves: pública (en el servidor) y privada (en la máquia).
+<div align="center">
+  <img src="/imgs/ssh-diagram3.2.avif" width="600" alt="Llave pública" />
+</div>
+
+> [!NOTE]
+> Usar llaves SSH para mayor seguridad y automatización.
+
+---
+
 ## Comandos básicos
 ```Bash
 # Conectarse a un servidor
@@ -43,23 +59,34 @@ ssh usuario@ip_del_servidor
 ssh -p 2222 usuario@ip_del_servidor
 
 # Conectarse con una llave privada
-ssh -i /.ssh/id_rsa usuario@servidor
+ssh -i ~/.ssh/id_rsa usuario@servidor
 
 # Copiar archivos usando SCP
 scp archivo.txt usuario@servidor:/ruta/
 
 # Copiar carpetas usando SCP
 scp -r carpeta/ usuario@servidor:/ruta/
-
 ```
 
 ---
 
 ## Ejemplo de conexión
 ```Bash
-
-
+ssh usuario@192.168.1.10
+The authenticity of host '192.168.1.10 (192.168.1.10)'
+can't be established.
+ED25519 key fingerprint is SHA256:ABcd1234...
+Are you sure you want to continue connecting (yes/no)?
+yes
+Warning: Permanently added '192.168.1.10' (ED25519)
+to the list of known hosts.
+usuario@192.168.1.10's password:
+[usuario@servidor ~]$
 ```
+
+> [!NOTE]
+> **¡Conexión establecida!**
+> Ahora ya se puede ejecutar comandos en el servidor.
 
 ---
 
@@ -72,9 +99,19 @@ scp -r carpeta/ usuario@servidor:/ruta/
 
 ---
 
+## Puerto por defecto
+<div align="center">
+  <img src="/imgs/ssh-diagram4.avif" width="600" alt="Puerta por defecto SSH" />
+</div>
+
+> [!NOTE]
+> Se puede cambiar en el servidor editando */etc/ssh/ssh_config* (Puerto recomendado: 2222)
+
+---
+
 ## Flujo de una conexión SSH
 <div align="center">
-  <img src="/imgs/ssh-diagram3.avif" width="600" alt="Flujo de una conexión SSH" />
+  <img src="/imgs/ssh-diagram5.avif" width="600" alt="Flujo de una conexión SSH" />
 </div>
 
 ---

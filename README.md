@@ -108,4 +108,5 @@ A structured collection of web development concepts, notes, and practical knowle
 ## ⭐ About
 
 This repository contains structured notes, concepts, tutorials, and more that I have learned and documented throughout my journey as a developer.
+
 ---
