@@ -85,15 +85,11 @@ Supongamos una API de usuarios: `https://api-ejemplo.com/v1/usuarios`
 ---
 
 ## Métodos HTTP más comunes en endpoints REST
-<img src="https://api.iconify.design/bi/search.svg?color=%23ffffff" width="22"/>
-
-<img src="https://api.iconify.design/bi/plus-circle.svg?color=%23ffffff" width="22"/>
-
-<img src="https://api.iconify.design/bi/pencil.svg?color=%23ffffff" width="22"/>
-
-<img src="https://api.iconify.design/bi/pencil-square.svg?color=%23ffffff" width="22"/>
-
-<img src="https://api.iconify.design/bi/trash.svg?color=%23ffffff" width="22"/>
+<img src="/imgs/get.avif" width="115" alt="Método GET"/> Obtiene datos de un recurso. <img src="https://api.iconify.design/bi/search.svg?color=%23ffffff" width="22"/> **GET** `/usuarios` Lista todos los usuarios
+<img src="/imgs/post.avif" width="115" alt="Método POST"/> Crea un nuevo recurso. <img src="https://api.iconify.design/bi/plus-circle.svg?color=%23ffffff" width="22"/> **POST** `/usuarios` Crea un nuevo usuario
+<img src="/imgs/put.avif" width="115" alt="Método PUT"/> Actualiza un recurso completo. <img src="https://api.iconify.design/bi/pencil.svg?color=%23ffffff" width="22"/> **PUT** `/usuarios/123` Actualiza el usuario 123
+<img src="/imgs/patch.avif" width="115" alt="Método PATCH"/> Actualiza parcialmente un recurso. <img src="https://api.iconify.design/bi/pencil-square.svg?color=%23ffffff" width="22"/> **PATCH** `/usuarios/123` Actualiza parte del usuario 123
+<img src="/imgs/delete.avif" width="115" alt="Método DELETE"/> Elimina un recurso. <img src="https://api.iconify.design/bi/trash.svg?color=%23ffffff" width="22"/> **DELETE** `/usuarios/123` Elimina el usuario 123
 
 
 ---
