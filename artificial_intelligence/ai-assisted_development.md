@@ -86,7 +86,7 @@ El desarrollador mantiene el control, **revisa y valida** todo lo que genera la 
 ---
 
 > [!IMPORTANT]
-> **La IA no reemplaza al desarrollador, lo potencia.**.
+> **La IA no reemplaza al desarrollador, lo potencia.**
 > La experiencia, criterio y creatividad siguen siendo esenciales.
 
           
