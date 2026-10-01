@@ -22,6 +22,7 @@ El desarrollador mantiene el control, **revisa y valida** todo lo que genera la 
 4. Se integra y se prueba en el proyecto.
 
 ---
+
 ## ¿En que ayuda la IA?
 - Autocompletado inteligente de código. 
 - Generación de funciones y algoritmos.
