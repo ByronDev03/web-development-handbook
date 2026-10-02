@@ -16,6 +16,3 @@
 | ![alt text](/imgs/npm.png)              | npm                     |                                                        | 
 | <img src="https://cdn.simpleicons.org/node.js" width="60"/> | Node.js |                                                        |
 | ![alt text](/imgs/nvm.png)              | nvm                     |                                                        |
-|                                         |                         |                                                        |
-|                                         |                         |                                                        |
-|                                         |                         |                                                        |
