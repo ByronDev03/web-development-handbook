@@ -2,20 +2,19 @@
 
 ---
 
-| Logo                                    | Nombre y Versión        | Link de Descarga                                       |
-| :---:                                   |     :---:               |   :---:                                                | 
-| ![alt text](/imgs/brave.png)            | Brave                   | https://brave.com/es                                   |
-| ![alt text](/imgs/vscode.png)           | Visual Studio Code      | https://code.visualstudio.com/download                 |
-| ![alt text](/imgs/netbeans.png)         | Apache NetBeans         | https://netbeans.apache.org/front/main/index.html      |
-| ![alt text](/imgs/git.png)              | Git                     | https://git-scm.com/downloads                          |
-| ![alt text](/imgs/figma.png)            | Figma                   | https://www.figma.com/es-la/downloads                  |
-| ![alt text](/imgs/drawio.png)           | draw.io                 | https://www.drawio.com                                 |
-| ![alt text](/imgs/wamp.png)             | WampServer              | [Oficial](https://www.wampserver.com/en/ ) <br>  [Paquetes VC](https://wampserver.aviatechno.net/) |
-| ![alt text](/imgs/java.png)             | Java Development Kit    | https://www.oracle.com/mx/java/technologies/downloads  |
-| ![alt text](/imgs/python1.png)          | Python                  | https://www.python.org/downloads                       |
-| ![alt text](/imgs/angular1.png)         | Angular CLI             |                                                        |
+| Logo                              | Herramienta             | Link de Descarga                                       |
+| :---:                             |     :---:               |   :---:                                                | 
+| ![alt text](/imgs/brave.png)      | Brave                   | [Download](https://brave.com/es)                       |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="60"/> | Visual Studio Code  | [Download](https://code.visualstudio.com/download) |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/netbeans/netbeans-original.svg" width="60" /> | Apache NetBeans | [Download](https://netbeans.apache.org/front/main/index.html) |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="60"/>| Git | [Download](https://git-scm.com/) |
+| ![alt text](/imgs/drawio.png)     | draw.io                 | [Download](https://www.drawio.com) |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" width="60"/> | MySQL Workbench | [Download]() |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" width="60"/>| Java Development Kit | [Download](https://www.oracle.com/mx/java/technologies/downloads) |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="85"/> | Python | [Download](https://www.python.org/downloads) |
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg" width="60"/> | Angular CLI |    |
 | ![alt text](/imgs/npm.png)              | npm                     |                                                        | 
-| ![alt text](/imgs/nodejs.png)           | Node.js                 |                                                        |
+| <img src="https://cdn.simpleicons.org/node.js" width="60"/> | Node.js |                                                        |
 | ![alt text](/imgs/nvm.png)              | nvm                     |                                                        |
 |                                         |                         |                                                        |
 |                                         |                         |                                                        |
