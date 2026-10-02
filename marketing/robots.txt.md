@@ -19,6 +19,7 @@ No bloquea el acceso real a la información (si alguien tiene el link directo la
 ---
 
 ## Ejemplo práctico
+```Bash
 #Permitir que todos los robots accedan a todo
 user_agent: *
 Disallow: 
@@ -30,6 +31,7 @@ Disallow: /privado/
 #Bloquear solo a Googlebot de entrar en /test/
 user_agent: Googlebot
 Dissallow: /test/
+```
 
 ---
 
