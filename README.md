@@ -27,6 +27,8 @@ A structured collection of web development concepts, notes, and practical knowle
 - 📍[Endpoint](backend/endpoint.md) 
 - 🔌[API](backend/api.md) 
 - 🧩 [ORM](backend/orm.md)
+- 🗄️[Databases](backend)
+    - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="16"/> [PostgreSQL](backend/postgresql.md)
 
 ---
 
