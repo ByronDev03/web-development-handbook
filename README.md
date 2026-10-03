@@ -24,12 +24,12 @@ A structured collection of web development concepts, notes, and practical knowle
 ![Backend](https://img.shields.io/badge/Backend-000000?logo=nodedotjs&logoColor=white)
 
 - <img src="https://cdn.simpleicons.org/node.js" width="16"/> [Node.js](backend/node.js.md)
-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" width="16"/> [Node.js](backend/npm.md)     
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" width="16"/> [npm](backend/npm.md)     
 - 📍[Endpoint](backend/endpoint.md) 
-- 🔌[API](backend/api.md) 
+- 🔌 [API](backend/api.md) 
 - 🧩 [ORM](backend/orm.md)
 - 🔗 [Middleware](backend/middleware.md)
-- 🗄️[Databases](backend)
+- 🗄️ [Databases](backend)
     - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="16"/> [PostgreSQL](backend/postgresql.md)
     - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" width="16"/> [MongoDB](backend/mongodb.md)
           
