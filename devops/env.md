@@ -157,7 +157,4 @@ DB_DATABASE=mi_app_prod
 ## En resumen
 El archivo .env es clave para mantener tu configuración segura, flexible y portable. Usarlo siempre y nunca exponer los secretos de una app.<br>
 
-**Pequeño archivo, gran impacto**
-
 ---
-

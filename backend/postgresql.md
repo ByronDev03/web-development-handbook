@@ -16,6 +16,35 @@ Es un sistema de gestión de bases de datos relacional, robusto, confiable y de 
 
 ---
 
+## ¿Cómo funciona?
+<div align="center">
+  <img src="/imgs/postgresql1.avif" width="600" alt="Diagrama endpoint" />
+</div>
+
+**¿Qué sucede por dentro?**
+1. El servidor recibe y analiza la consulta SQL.
+2. El optimizador de consultas elige el mejor plan de ejecución.
+3. El motor de almacenamiento lee o escribe los datos en disco.
+4. Los resultados son devueltos al cliente.
+
+- **ACID:** Transacciones seguras
+- **Índices:** Búsquedas rápidas
+- **Claves foráneas:** Integridad referencial
+- **Vistas:** Consultas simplificadas
+- **Funciones:** Lógica del lado de la base de datos
+
+---
+
+## Características destacadas
+- **SQL Completo:** Soporta la mayoría de características del estándar SQL.
+- **Tipos de datos avanzados:** JSONB, Array, UUID, HSTORE, rangos, geometría y más.
+- **Extensiones:** PostGIS, pgTrgm, hstore, citext, entre muchas otras.
+- **Seguridad:** Roles, permisos granulares, cifrado y autenticación avanzada.
+- **Replicación:** Replica tus datos para alta disponibilidad y escalabilidad.
+- **Copias de seguridad:** Herramientas integradas para respaldos y recuperación.
+
+---
+
 ## Ejemplo: Crear tabla y consultar
 ```sql
 CREATE TABLE usuarios (
@@ -35,3 +64,79 @@ FROM usuarios;
 
 ```
 
+## Tipos de datos populares
+- **INTEGER:** Números enteros
+- **VARCHAR(n):** Cadenas de texto 
+- **TEXT:** Texto Largo
+- **BOOLEAN:** Verdadero / Falso
+- **TIMESTAMP:** Fecha y hora
+- **JSONB:** Datos JSON (binario)
+- **UUID:** Identificador único
+- **ARRAY:** Arreglos de valores
+
+---
+
+## Ejemplo: JSONB
+```sql
+CREATE TABLE productos (
+  id        SERIAL PRIMARY KEY,
+  nombre    TEXT,
+  atributos JSONB
+);
+INSERT INTO productos (nombre, atributos)
+VALUE (
+  'Laptop',
+  '{"marca": "Dell", "ram": "16GB", 
+    "almacenamiento": "512 GB SSD"}'
+);
+
+-- Consultar por un atributo JSON
+SELECT * FROM productos
+WHERE atributos->>'marca' = 'Dell';
+
+```
+
+---
+
+## Herramientas ecosistema
+- **pgAdmin:** Interfaz gráfica para administrar las bases de datos.
+- **psql:** CLI oficial para interactuar con PostgreSQL.
+- **Docker:** Ejecuta PostgreSQL fácilmente en contenedores.
+- **ORMs:** Compatible con cualquier ORM: *Prisma, TypeORM, Sequelize, etc.*
+
+---
+
+## Casos de uso
+- Aplicaciones Web y Móviles
+- Sistemas Financieros
+- Análisis de Datos y BI
+- IoT y Big Data
+- GIS (con PostGIS)
+
+---
+
+## Ventajas
+- ✅ 100% Open Source
+- ✅ Confiable y probado en producción
+- ✅ Muy escalable
+- ✅ Comunidad y documentación excelentes
+- ✅ Actualización constantes
+
+---
+
+## ¿Dónde se usa?
+- Instagram
+- Spotify
+- Airbnb
+- Youtube
+- Reddit
+- Slack
+- Discord
+- y muchas más...
+
+--- 
+
+## En resumen
+PostgreSQL es una base de datos potente, flexible y de código abierto que te brinda seguridad, escalabilidad y características avanzadas para construir aplicaciones modernas y de misión crítica.
+
+---
