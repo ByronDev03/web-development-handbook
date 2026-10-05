@@ -125,13 +125,12 @@ WHERE atributos->>'marca' = 'Dell';
 ---
 
 ## ¿Dónde se usa?
-- Instagram
-- Spotify
-- Airbnb
-- Youtube
-- Reddit
-- Slack
-- Discord
+- <img src="https://cdn.simpleicons.org/instagram" width="20"/> Instagram
+- <img src="https://cdn.simpleicons.org/spotify" width="20"/> Spotify
+- <img src="https://cdn.simpleicons.org/youtube" width="20"/> YouTube
+- <img src="https://cdn.simpleicons.org/reddit" width="20"/> Reddit
+- <img src="https://cdn.simpleicons.org/airbnb" width="20"/> Airbnb
+- <img src="https://cdn.simpleicons.org/discord" width="20"/> Discord
 - y muchas más...
 
 --- 
