@@ -18,7 +18,7 @@ Es un sistema de gestión de bases de datos relacional, robusto, confiable y de 
 
 ## ¿Cómo funciona?
 <div align="center">
-  <img src="/imgs/postgresql1.avif" width="600" alt="Diagrama endpoint" />
+  <img src="/imgs/postgresql1.avif" width="600" alt="¿Cómo funciona?" />
 </div>
 
 **¿Qué sucede por dentro?**
