@@ -50,3 +50,50 @@ mi-projecto/
 ├── package.json         # Información del proyecto
 └── package-lock.json    # Versiones exactas 
 ```
+
+---
+
+## Comandos más utiles
+- `npm install <paquete>`: Instala un paquete y lo guarda en dependencias.
+- `npm i -D <paquete>`: Instala un paquete solo para desarrollo (devDependencies).
+- `npm uninstall <paquete>`: Desinstala un paquete.
+- `npm update`: Actualiza todos los paquetes.
+- `npm init`: Crea un nuevo package.json.
+- `npm list`: Lista los paquetes instalados.
+
+---
+
+## ¿Qué es package.json?
+Define las dependencias y scripts de cualquier proyecto.
+```Bash
+{
+  "name": "mi-proyecto",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
+```
+
+---
+
+## ¿Porqué es importante?
+- **Ahorra tiempo:** no reinventes la rueda.
+- **Código de calidad:** usa librerías probadas.
+- **Fácil de entender:** versiones y actualizaciones controladas.
+- **Escalable:** ideal para proyectos pequeños y grandes.
+
+---
+
+## Ejemplos de paquetes populares
+- <img src="https://expressjs.com/images/logos/logo-express-white.svg" alt="express" width="16"/> Framework web rápido y minimalista.
+- <img src="https://expressjs.com/images/logos/logo-express-white.svg" alt="express" width="16"/> Librería para construir interfaces de usuario.
+
+---
+
+## En resumen
+NPM es el corazón del ecosistema JavaScript.
+Conecta con millones de paquetes para construir mejores proyectos, más rápido.
