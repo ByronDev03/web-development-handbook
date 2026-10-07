@@ -92,8 +92,9 @@ Define las dependencias y scripts de cualquier proyecto.
 - <img src="https://expressjs.com/images/logos/logo-express-white.svg" alt="express" width="25"/> Framework web rápido y minimalista.
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" alt="react" width="25"/> Librería para construir interfaces de usuario.
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain-wordmark.svg" alt="axios" width="25"/> Cliente HTTP basado en promesas.
-          
-
+- <img src="https://cdn.simpleicons.org/lodash/fff" alt="lodash" width="25"> Utilidades para trabajar con JavaScript.
+- <img src="https://cdn.jsdelivr.net/npm/@dev.icons/core@latest/export-files/icons/chalk.svg" alt="chalk" width="25"> Colorea texto en la terminal.
+- <img src="https://cdn.jsdelivr.net/npm/@dev.icons/core@latest/export-files/icons/moment-js.svg" alt="moment" width="25"> Manipula y formatea fechas.
 
 ---
 
