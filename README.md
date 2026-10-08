@@ -78,8 +78,8 @@ A structured collection of web development concepts, notes, and practical knowle
 
 - 🔑 [SSH](devops/ssh.md)
 - 🔐 [Environment Variables](devops/env.md)
-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" width="16"/>  [Amazon EC2](business/amazonec2.md)
-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg" width="16"/> [Nginx](business/nginx.md)
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" width="16"/>  [Amazon EC2](devops/amazonec2.md)
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nginx/nginx-original.svg" width="16"/> [Nginx](devops/nginx.md)
 
 ---
 
