@@ -127,7 +127,7 @@ Herramienta oficial de MongoDB para explorar, visualizar y administrar datos de 
 - <img src="/imgs/ea.avif" alt="Electronic Arts" width="28"> Electronic Arts
 - <img src="/imgs/adobe.avif" alt="Adobe" width="28"> Adobe
 - <img src="/imgs/linkedin.avif" alt="LinkedIn" width="28"> LinkedIn
-- <img src="https://cdn.simpleicons.org/forbes/fff" alt="Forbes" width="28"> Forbes
+- <img src="/imgs/forbes.avif" alt="Forbes" width="28"> Forbes
 - y muchas más...
 
 ---
