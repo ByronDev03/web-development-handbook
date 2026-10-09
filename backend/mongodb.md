@@ -124,10 +124,10 @@ Herramienta oficial de MongoDB para explorar, visualizar y administrar datos de 
 ## ¿Dónde se usa?
 - <img src="https://cdn.simpleicons.org/ebay" alt="eBay" width="28"> eBay
 - <img src="https://cdn.simpleicons.org/google" alt="Google" width="28"> Google
-- <img src="https://cdn.simpleicons.org/forbes/fff" alt="Forbes" width="28">
-- <img src="https://cdn.simpleicons.org/electronicarts/fff" alt="Electronic Arts" width="28"> 
-- <img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/adobe.svg" alt="Adobe" width="28">
-- <img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/linkedin.svg" alt="LinkedIn" width="28">
+- <img src="/imgs/ea.avif" alt="Electronic Arts" width="28"> Electronic Arts
+- <img src="/imgs/adobe.avif" alt="Adobe" width="28"> Adobe
+- <img src="/imgs/linkedin.avif" alt="LinkedIn" width="28"> LinkedIn
+- <img src="https://cdn.simpleicons.org/forbes/fff" alt="Forbes" width="28"> Forbes
 - y muchas más...
 
 ---
