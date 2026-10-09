@@ -19,7 +19,7 @@ Es ligero, escalable y se usa para mejorar el rendimiento, seguridad y disponibi
 
 ## ¿Cómo funciona?
 <div align="center">
-  <img src="/imgs/nginx1.avif" width="600" alt="Funcionamiento de NGINX" />
+  <img src="/imgs/nginx1.avif" width="600" alt="Funcionamiento de NGINX"/>
 </div>
 
 > [!NOTE]
@@ -39,3 +39,83 @@ Es ligero, escalable y se usa para mejorar el rendimiento, seguridad y disponibi
 - Alta disponibilidad y escalabilidad.
 
 ---
+
+## ¿Para qué se usa?
+- **Servidor web:** Sirve sitios web y archivos estáticos.
+- **Balanceador de carga:** Distribuye el tráfico entre múltiples servidores.
+- **Proxy inverso:** Protege servidores internos y mejora la seguridad.
+- **Caché:** Acelera respuestas almacenamiento contenido.
+- **API Gateway:** Gestiona y protege APIs y microservicios.
+- **Alta disponibilidad:** Mejora la tolerancia a fallos.
+
+---
+
+## Ejemplo de configuración básica
+```Bash
+server {
+    listen 80;
+    server_name ejemplo.com;
+
+    location / {
+        proxy_pass http://backend_app;  # Proxy inverso
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+
+    location /static/ {
+        root /var/www/html;
+        expires 30d;  # Caché de archivos estáticos
+    }
+}
+```
+
+---
+
+## Flujo de una solicitud
+<div align="center">
+  <img src="/imgs/nginx2.avif" width="600" alt="Flujo de una solicitud NGINX"/>
+</div>
+
+---
+
+## NGINX vs Otros
+| ASPECTO         | NGINX                                       | APACHE                 | HAProxy                           |
+| :---:           | :---:                                       | :---:                  | :---:                             |
+| Tipos           | Servidor web / Proxy inverso / Balanceador  | Servidor web           | Balanceador de carga              |
+| Rendimiento     | Muy alto (event-driven)                     | Alto (process/thread)  | Muy alto                          |
+| Concurrencia    | Miles de conexiones con bajo consumo        | Menor eficiencia       | Optimizado para balanceo TCP/HTTP |
+| Configuración   | Simple pero potente                         | Más compleja           | Media                             |
+| Uso principal   | Web, APIs, Proxy, Balanceo, Caché           | Sitios web             | Balanceo de carga especializado   |
+
+---
+
+## ¿Dónde se usa NGINX?
+- **En la nube** (AWS, GCP, Azure, etc.)
+- **Contenedores** (Docker, Kubernetes)
+- **Microservicios** y arquitecturas modernas
+- **Grandes sitios web** y aplicaciones de alto tráfico
+
+---
+
+## Comandos útiles
+```Bash
+nginx -v         # Ver versión
+nginx -t         # Probar configuración
+nginx -s reload  # Recargar configuración
+nginx -s stop    # Detener NGINX
+nginx -s start   # Iniciar NGINX
+```
+
+---
+
+## Beneficios clave
+- ✅ Mejora el rendimiento de las aplicaciones que se crean
+- ✅ Reduce la carga en servidores backend
+- ✅ Aumenta la seguridad y control de acceso
+- ✅ Escala fácilmente
+- ✅ Optimiza el uso de recursos
+
+---
+
+## En resumen
+NGINX es mucho más que un servidor web. Es una herramienta poderosa para entregar aplicaciones más rápidas, seguras y escalables.
