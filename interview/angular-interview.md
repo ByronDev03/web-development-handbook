@@ -39,11 +39,7 @@ PREGUNTAS PARA ENTREVISTA JUNIOR<br>
 5. **¿Qué es TypeScript y qué ventajas tiene respecto a utilizar solamente JavaScript?**
     <details>
     <summary>Solución</summary>
-    <p>
-    TypeScript es un superconjunto de JavaScript que agrega
-    <strong>tipado estático</strong> y características avanzadas.
-    Permite:
-    </p>    
+    <p>TypeScript es un superconjunto de JavaScript que agrega <strong>tipado estático</strong> y características avanzadas. Permite:</p>    
     <ul>
     <li>Detectar errores antes de ejecutar el código.</li>
     <li>Mejorar el <strong>autocompletado</strong> y la mantenibilidad de un proyecto.</li>
@@ -59,21 +55,29 @@ PREGUNTAS PARA ENTREVISTA JUNIOR<br>
     </details><br>
 
 7. **¿Cómo creas un componente en Angular? ¿De qué archivos generalmente se compone?**
-Puedes crear un componente con el comando: ***ng generate component nombre-del-componente***. Cada componente suele tener 4 archivos
-principales:
-    - ***.ts (la lógica)***
-    - ***.html (plantilla o vista)***
-    - ***.css (los estilos)***
-    - ***.spec.ts (pruebas unitarias).***
+    <details>
+    <summary>Solución</summary>
+    <p>Puedes crear un componente con el comando: <strong>ng generate component nombre-del-componente</strong>. Cada componente suele tener 4 archivos
+    principales:</p>
+    <ul>
+    <li><strong>.ts (la lógica)</strong></li>
+    <li><strong>.html (plantilla o vista)</strong></li>
+    <li><strong>.css (los estilos)</strong></li>
+    <li><strong>.spec.ts (pruebas unitarias)</strong></li>
+    </ul>
+    </details><br>
 
-8. **¿Puedo tener un conjunto de componentes adentro de otro componente?**
-Dame ejemplo
-Sí, es una práctica muy común. Un componente padre puede contener varios componentes hijos para dividir la interfaz en partes 
-más pequeñas y reutilizables.
-Ejemplo: Un componente AppComponent que contiene dentro:
-    - ***NavbarComponent***
-    - ***SidebarComponent***
-    - ***UserListComponent***
+8. **¿Puedo tener un conjunto de componentes adentro de otro componente? Dame ejemplos**
+    <details>
+    <summary>Solución</summary>
+    <p>Sí, es una práctica muy común. Un componente padre puede contener varios componentes hijos para dividir la interfaz en partes más pequeñas y reutilizables.</p>
+    <p>Ejemplo: Un componente AppComponent que contiene dentro:</p>
+    <ul>
+    <li><strong>NavbarComponent</strong></li>
+    <li><strong>SidebarComponent</strong></li>
+    <li><strong>UserListComponent</strong></li>
+    </ul>
+    </details><br>
 
 9. **¿Qué es un servicio en Angular?**
     <details>
