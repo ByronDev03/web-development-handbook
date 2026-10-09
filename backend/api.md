@@ -104,8 +104,8 @@ Supongamos que se usa una app del clima en tu celular:
 - Google Maps API
 - Stripe API (pagos)
 - OpenWeather API (clima)
-- <img src="https://cdn.simpleicons.org/github/ffffff" width="16"/> Github API (repositorios)
-- Youtube Dats API (videos)
+- <img src="https://cdn.simpleicons.org/github/ffffff" width="28"/> Github API (repositorios)
+- <img src="/imgs/youtube.avif" alt="Youtube" width="28"> Youtube Dats API (videos)
 
 --- 
 
