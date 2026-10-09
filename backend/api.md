@@ -101,9 +101,9 @@ Supongamos que se usa una app del clima en tu celular:
 ---
 
 ## Ejemplos de APIs pupulares
-- Google Maps API
-- Stripe API (pagos)
-- OpenWeather API (clima)
+- <img src="https://cdn.simpleicons.org/googlemaps" alt="Google Maps" width="28"> Google Maps API
+- <img src="https://cdn.simpleicons.org/stripe" alt="Stripe" width="28"> Stripe API (pagos)
+- <img src="/imgs/open-weather.avif" alt="OpenWeather" width="25"> OpenWeather API (clima)
 - <img src="https://cdn.simpleicons.org/github/ffffff" width="28"/> Github API (repositorios)
 - <img src="/imgs/youtube.avif" alt="Youtube" width="28"> Youtube Dats API (videos)
 
