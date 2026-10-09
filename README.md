@@ -109,6 +109,7 @@ A structured collection of web development concepts, notes, and practical knowle
 
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="16"/> [Java Interview Questions](interview/java-interview.md)
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg" width="16"/> [Angular Interview Questions](interview/angular-interview.md)
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" width="16"/> [SQL Interview Questions](interview/sql-interview.md)
 - 👨🏻‍💻 [Web Development Questions](interview/web-development-questions.md)
 
 ---
