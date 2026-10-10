@@ -42,7 +42,7 @@ PREGUNTAS PARA ENTREVISTA JUNIOR<br>
     <p>TypeScript es un superconjunto de JavaScript que agrega <strong>tipado estático</strong> y características avanzadas. Permite:</p>    
     <ul>
     <li>Detectar errores antes de ejecutar el código.</li>
-    <li>Mejorar el <strong>autocompletado</strong> y la mantenibilidad de un proyecto.</li>
+    <li>Mejorar el autocompletado y la mantenibilidad de un proyecto.</li>
     </ul>
     </details><br>
     
