@@ -32,7 +32,7 @@ PREGUNTAS PARA ENTREVISTA JUNIOR<br>
     <ul>
     <li>La <strong>programación imperativa</strong> es el estilo más clásico y tradicional. En este enfoque, el programador le indica a la computadora exactamente qué
     pasos debe seguir para llegar a un resultado. Es como dar una receta paso a paso.</li>
-    <li>La <strong>programación funcional:</strong> se centra más en describir qué se quiere lograr, en lugar de detallar cómo hacerlo paso a paso (trabajando más con
+    <li>La <strong>programación funcional</strong> se centra más en describir qué se quiere lograr, en lugar de detallar cómo hacerlo paso a paso (trabajando más con
     funciones puras). Podríamos compararlo con pedir un servicio que se encargue del trabajo: no te preocupas por los pasos intermedios, solo dices
     qué resultado buscas.</li>
     </ul>
