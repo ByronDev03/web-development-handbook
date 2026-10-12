@@ -22,14 +22,23 @@ Aunque existen muchas arquitecturas de IA, en este apunte estudiaremos ocho mode
 
 ---
 
-## LLM — Large Language Model
+## LLM — Large Language Model (Modelo de Lenguaje de Gran Escala)
 - **¿Qué es?**
     Un LLM es un modelo de inteligencia artificial entrenado con grandes cantidades de datos para comprender y generar lenguaje natural. Puede responder preguntas, redactar textos, resumir documentos, traducir idiomas y generar código de programación.
 
 - **¿Cómo funciona?**
+    El diagrama muestra cómo un modelo de lenguaje transforma una entrada de texto en una respuesta generada mediante cinco etapas.
+    1. **Entrada:** El usuario introduce una pregunta, una instrucción o un texto. Esta información es el punto de partida del procesamiento.
+    2. **Tokenización:** El texto se divide en unidades llamadas tokens. Estos pueden representar palabras completas, partes de palabras o caracteres, dependiendo del sistema de tokenización.
+    3. **Embedding:** Cada token se transforma en una representación numérica llamada vector. Estas representaciones permiten que la red neuronal procese información lingüística y relaciones entre tokens.
+    4. **Transformer:** La arquitectura Transformer procesa las representaciones mediante mecanismos como la atención, que ayudan al modelo a identificar relaciones entre los tokens y utilizar el contexto para calcular qué texto generar.
+    5. **Salida (texto generado):** El modelo predice los siguientes tokens y los va generando hasta construir una respuesta. El resultado puede ser una explicación, un resumen, una traducción o código de programación.
+
     <div align="center">
-        <img src="/imgs/llm.avif" width="250" alt="Modelo LLM" />
+        <img src="/imgs/llm.avif" width="250" alt="Modelo LLM"/>
     </div>
+
+    - **En resumen:** el texto se convierte en tokens, estos se representan numéricamente, el Transformer los procesa y el modelo genera una respuesta.
 
 - **Características**
     - Comprende y genera texto.
@@ -64,7 +73,7 @@ Un LLM se especializa principalmente en procesar y generar lenguaje. No signific
 
 - **¿Cómo funciona?**
     <div align="center">
-        <img src="/imgs/lcm.avif" width="250" alt="Modelo LCM" />
+        <img src="/imgs/lcm.avif" width="250" alt="Modelo LCM"/>
     </div>
 
 - **Características**
@@ -97,7 +106,7 @@ Un LCM busca trabajar con representaciones del significado, no solamente con sec
 
 - **¿Cómo funciona?**
     <div align="center">
-        <img src="/imgs/lam.avif" width="250" alt="Modelo LAM" />
+        <img src="/imgs/lam.avif" width="250" alt="Modelo LAM"/>
     </div>
 
 - **Características**
@@ -131,7 +140,7 @@ Un LAM está orientado a convertir instrucciones en acciones. La ejecución real
 
 - **¿Cómo funciona?**
     <div align="center">
-        <img src="/imgs/moe.avif" width="250" alt="Modelo MoE" />
+        <img src="/imgs/moe.avif" width="250" alt="Modelo MoE"/>
     </div>
 
 - **Características**
@@ -167,7 +176,7 @@ MoE no es necesariamente un tipo de tarea, sino una arquitectura que combina mú
 
 - **¿Cómo funciona?**
     <div align="center">
-        <img src="/imgs/vlm.avif" width="250" alt="Modelo VLM" />
+        <img src="/imgs/vlm.avif" width="250" alt="Modelo VLM"/>
     </div>
 
 - **Características**
@@ -203,7 +212,7 @@ Un VLM conecta información visual con lenguaje para interpretar imágenes y res
     Un SLM es un modelo de lenguaje relativamente pequeño en comparación con los grandes modelos de propósito general. Está diseñado para realizar determinadas tareas lingüísticas utilizando menos recursos computacionales, aunque su rendimiento depende del entrenamiento, la arquitectura y la tarea.
 - **¿Cómo funciona?**
     <div align="center">
-        <img src="/imgs/slm.avif" width="250" alt="Modelo SLM" />
+        <img src="/imgs/slm.avif" width="250" alt="Modelo SLM"/>
     </div>
 
 - **Características**
@@ -239,7 +248,7 @@ Un SLM prioriza un equilibrio entre capacidad y eficiencia. Un modelo pequeño n
 
 - **¿Cómo funciona?**
     <div align="center">
-        <img src="/imgs/mlm.avif" width="250" alt="Modelo MLM" />
+        <img src="/imgs/mlm.avif" width="250" alt="Modelo MLM"/>
     </div>
 
 - **Características**
@@ -275,7 +284,7 @@ Un MLM aprende a predecir tokens ocultos utilizando el contexto de ambos lados. 
 
 - **¿Cómo funciona?**
     <div align="center">
-        <img src="/imgs/sam.avif" width="250" alt="Modelo SAM" />
+        <img src="/imgs/sam.avif" width="250" alt="Modelo SAM"/>
     </div>
 
 - **Características**
