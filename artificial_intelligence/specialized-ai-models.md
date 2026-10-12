@@ -88,8 +88,8 @@ Un LLM se especializa principalmente en procesar y generar lenguaje. No signific
 
     - **En resumen:** el enfoque representa el texto mediante vectores semánticos, procesa secuencias de conceptos y genera nuevas representaciones que pueden convertirse en contenido comprensible.
 
-    > [!NOTE]
-    > El diagrama no debe interpretarse como un esquema técnico exacto de todas las implementaciones de LCM; combina elementos conceptuales y operaciones que dependen del sistema.
+> [!NOTE]
+> El diagrama no debe interpretarse como un esquema técnico exacto de todas las implementaciones de LCM; combina elementos conceptuales y operaciones que dependen del sistema.
 
 - **Características**
     - Se centra en unidades de significado.
@@ -135,8 +135,8 @@ Un LCM busca trabajar con representaciones del significado, no solamente con sec
 
     - **En resumen:** el sistema interpreta un objetivo, analiza su contexto, planifica acciones y utiliza los resultados para comprobar si la tarea se completó correctamente.
 
-    > [!NOTE]
-    > LAM no es una arquitectura única y estandarizada. El diagrama representa un flujo conceptual; no todos los modelos de acción incluyen estas mismas etapas.
+> [!NOTE]
+> LAM no es una arquitectura única y estandarizada. El diagrama representa un flujo conceptual; no todos los modelos de acción incluyen estas mismas etapas.
 
 - **Características**
     - Orientado a ejecutar tareas.
