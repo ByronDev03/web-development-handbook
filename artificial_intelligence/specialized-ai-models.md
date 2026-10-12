@@ -67,14 +67,29 @@ Un LLM se especializa principalmente en procesar y generar lenguaje. No signific
 
 ---
 
-## LCM — Large Concept Model
+## LCM — Large Concept Model (Modelo de Conceptos de Gran Escala)
 - **¿Qué es?**
     Un LCM es un enfoque de inteligencia artificial orientado a representar y procesar conceptos o unidades de significado más amplias que los tokens individuales. En lugar de centrarse exclusivamente en la siguiente palabra o token, busca trabajar con representaciones del significado de fragmentos completos de información.
 
 - **¿Cómo funciona?**
+    El diagrama muestra una representación simplificada del enfoque de Large Concept Model de Meta, que trabaja con secuencias de conceptos en lugar de tratar únicamente con tokens individuales.
+    1. **Entrada:** El sistema recibe un texto que utilizará como punto de partida para extraer y procesar información conceptual.
+    2. **Segmentación de oraciones:** El texto se divide en oraciones o unidades linguisticas. Esto permite trabajar con fragmentos que expresan ideas, en lugar de procesar exclusivamente palabras aisladas.
+    3. **Embedding SONAR:** Las unidades de texto se convierten en vectores mediante SONAR, una familia de modelos y espacios de representación semántica multilingüe y multimodal. Estos vectores representan información relacionada con el significado de las unidades de entrada.
+    4. **Difusión:** En el enfoque descrito, un modelo de difusión aprende a predecir o generar secuencias de representaciones conceptuales. Durante la generación, este tipo de modelo parte de representaciones ruidosas y las refina progresivamente.
+    5. **Patrones avanzadas:** El modelo aprende patrones y relaciones entre las representaciones conceptuales para producir secuencias coherentes. No es una etapa universal independiente, sino una forma de ilustrar lo que aprende el sistema.
+    6. **Proceso oculto:** Representa las operaciones internas del modelo que transforman y refinan las representaciones. El término «proceso oculto» del dibujo no corresponde a una etapa técnica estándar con ese nombre.
+    7. **Cuantización:** La cuantización convierte valores continuos en representaciones discretas o reduce la precisión numérica, según la técnica utilizada. Sin embargo, no debe interpretarse como una fase obligatoria de todo LCM; el dibujo es una simplificación.
+    8. **Salida (conceptos):** El sistema obtiene una secuencia de representaciones conceptuales generadas. Según el proceso completo, estas pueden convertirse nuevamente en texto u otra forma de salida.
+
     <div align="center">
         <img src="/imgs/lcm.avif" width="250" alt="Modelo LCM"/>
     </div>
+
+    - **En resumen:** el enfoque representa el texto mediante vectores semánticos, procesa secuencias de conceptos y genera nuevas representaciones que pueden convertirse en contenido comprensible.
+
+    > [!NOTE]
+    > El diagrama no debe interpretarse como un esquema técnico exacto de todas las implementaciones de LCM; combina elementos conceptuales y operaciones que dependen del sistema.
 
 - **Características**
     - Se centra en unidades de significado.
@@ -100,14 +115,28 @@ Un LCM busca trabajar con representaciones del significado, no solamente con sec
 
 ---
 
-## LAM — Large Action Model
+## LAM — Large Action Model (Modelo de Acción de Gran Escala)
 - **¿Qué es?**
     Un LAM es un modelo de inteligencia artificial diseñado para interpretar objetivos y traducirlos en acciones que un sistema puede ejecutar. Mientras que un LLM puede explicar cómo realizar una tarea, un LAM busca participar directamente en su ejecución mediante herramientas, interfaces o sistemas conectados.
 
 - **¿Cómo funciona?**
+    El diagrama representa cómo un sistema orientado a acciones interpreta una instrucción, planifica los pasos necesarios y utiliza la retroalimentación para mejorar la ejecución.
+    1. **Procesamiento de entrada:** El sistema recibe una instrucción y procesa la información necesaria para comprender qué se le está solicitando.
+    2. **Sistema de percepción:** Analiza el contexto disponible para identificar el estado actual del entorno. Puede interpretar información de una interfaz, una aplicación o los resultados de acciones anteriores, según el sistema.
+    3. **Reconocimiento de intención:** Determina el objetivo que se desea alcanzar a partir de la instrucción. Por ejemplo, distingue entre consultar los datos de un contacto y registrar uno nuevo.
+    4. **Descommposición de tareas:** Divide el objetivo en pasos más pequeños y manejables. Para registrar un contacto, podría identificar la necesidad de abrir el formulario, completar los campos y guardar la información.
+    5. **Planificación de acciones:** Organiza los pasos y determina qué acciones deben ejecutarse, en qué orden y qué herramientas o interfaces se necesitan para completar la tarea.
+    6. **istema de memoria:** Puede conservar información relevante, como el contexto de la tarea, los resultados anteriores o las preferencias necesarias para continuar el proceso.
+    7. **Cuantización:** En el diagrama, esta etapa aparece después de la planificación. Sin embargo, técnicamente la cuantización suele ser una técnica para reducir la precisión numérica de los parámetros de un modelo y disminuir su consumo de memoria o cómputo. No es una etapa universal de ejecución de acciones.
+
     <div align="center">
         <img src="/imgs/lam.avif" width="250" alt="Modelo LAM"/>
     </div>
+
+    - **En resumen:** el sistema interpreta un objetivo, analiza su contexto, planifica acciones y utiliza los resultados para comprobar si la tarea se completó correctamente.
+
+    > [!NOTE]
+    > LAM no es una arquitectura única y estandarizada. El diagrama representa un flujo conceptual; no todos los modelos de acción incluyen estas mismas etapas.
 
 - **Características**
     - Orientado a ejecutar tareas.
