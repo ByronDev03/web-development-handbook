@@ -163,14 +163,27 @@ Un LAM está orientado a convertir instrucciones en acciones. La ejecución real
 
 ---
 
-## MoE — Mixture of Experts
+## MoE — Mixture of Experts (Mezcla de Expertos)
 - **¿Qué es?**
     MoE es una arquitectura de redes neuronales que utiliza varios componentes especializados, conocidos como expertos, dentro de un mismo modelo. Un mecanismo denominado router determina qué expertos participan en el procesamiento de una entrada. Su objetivo es aumentar la capacidad del modelo sin tener que activar necesariamente todos sus parámetros para cada entrada.
 
 - **¿Cómo funciona?**
+    El diagrama muestra cómo una entrada pasa por un mecanismo de enrutamiento, se dirige a determinados expertos y combina sus resultados.
+    1. **Entrada:** El modelo recibe información, como los tokens de una pregunta o una instrucción, que necesita procesar.
+    2. **Mecanismos de enrutamiento (Router):** Analiza la representación de la entrada y calcula qué expertos son los más adecuados para procesarla. En muchas implementaciones, este mecanismo asigna puntuaciones a los expertos disponibles.
+    3. **Expertos:** Son componentes neuronales que procesan la información mediante parámetros aprendidos. Cada experto puede aprender patrones diferentes, aunque no necesariamente está dedicado a una tarea humana concreta.
+    4. **Selección Top-K:** Se seleccionan los *K* expertos que el mecanismo de enrutamiento considera más relevantes para la entrada. Por ejemplo, si *K=2*, se pueden activar dos expertos para procesar un token en esa capa.
+    5. **Combinación ponderada:** Los resultados de los expertos seleccionados se combinan utilizando pesos calculados por el mecanismo de enrutamiento. La contribución de cada experto depende de esos pesos.
+    6. **Salida:** El resultado combinado continúa hacia las siguientes capas del modelo o contribuye a generar la respuesta final, según la arquitectura.
+
     <div align="center">
         <img src="/imgs/moe.avif" width="250" alt="Modelo MoE"/>
     </div>
+
+    - **En resumen:** el router selecciona los expertos, los expertos procesan la entrada y sus resultados se combinan para continuar el procesamiento.
+
+> [!NOTE]
+> En modelos MoE de lenguaje, la selección suele realizarse por token y por capa, no necesariamente una sola vez para toda la pregunta.
 
 - **Características**
     - Contiene múltiples redes o componentes expertos.
@@ -199,14 +212,25 @@ MoE no es necesariamente un tipo de tarea, sino una arquitectura que combina mú
 
 ---
 
-## VLM — Vision-Language Model
+## VLM — Vision-Language Model (Modelo de Visión y Lenguaje)
 - **¿Qué es?**
     Un VLM es un modelo de inteligencia artificial capaz de procesar información visual y relacionarla con el lenguaje natural. Puede analizar fotografías, interpretar gráficos, describir imágenes y responder preguntas sobre su contenido.
 
 - **¿Cómo funciona?**
+    El diagrama muestra cómo un modelo de visión y lenguaje procesa una imagen y un texto por separado, relaciona sus representaciones y produce una respuesta conjunta.
+    1. **Entrada de imagen:** El sistema recibe una imagen que puede contener objetos, personas, texto, gráficos o escenas que se desean analizar.
+    2. **Codificador visual:** Extrae características de la imagen y las convierte en representaciones numéricas que describen su contenido visual.
+    3. **Entrada de texto:** Recibe la pregunta o instrucción relacionada con la imagen, por ejemplo: *¿Qué objetos aparecen en esta fotografía?*.
+    4. **Codificador de texto:** Transforma la pregunta en una representación numérica que el modelo puede procesar y relacionar con la información visual.
+    5. **Interfaz de proyección (alineación):** Adapta las representaciones visuales y textuales para que puedan comunicarse dentro del modelo. La implementación concreta depende de la arquitectura utilizada.
+    6. **Procesador multimodal:** Integra la información visual y textual para interpretar la imagen en función de la pregunta. Así puede relacionar los objetos detectados con las palabras del usuario.
+    7. **Salida (respuesta):** Genera una respuesta basada en la información combinada. Puede describir la imagen, responder preguntas sobre ella o interpretar determinados elementos visuales.
+
     <div align="center">
         <img src="/imgs/vlm.avif" width="250" alt="Modelo VLM"/>
     </div>
+
+    - **En resumen:** el VLM procesa la imagen y el texto, relaciona sus representaciones y genera una respuesta que utiliza ambas fuentes de información.
 
 - **Características**
     - Combina visión artificial y lenguaje.
