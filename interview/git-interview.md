@@ -125,7 +125,7 @@ PREGUNTAS PARA ENTREVISTA<br>
     <details>
     <summary>Solución</summary>
     <p align="justify">Es una <strong>solicitud formal</strong> para fusionar los cambios de una rama hacia otra (normalmente hacia <strong>main</strong>), permitiendo que el equipo revise el código, deje comentarios y lo apruebe antes de integrarlo, evitando que cualquiera fusione cambios sin revisón.</p>
-    <p align="justify">No es un comando de Git en sí, es una funcionalidad de plataforma como GitGub, GitLab o Bitbucket.</p>
+    <p align="justify">No es un comando de Git en sí, es una funcionalidad de plataforma como GitHub, GitLab o Bitbucket.</p>
     </details><br>
 
 10. **¿Qué es un commit atómico y por qué se recomienda?**
