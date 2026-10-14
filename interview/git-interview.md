@@ -132,7 +132,7 @@ PREGUNTAS PARA ENTREVISTA<br>
     <details>
     <summary>Solución</summary>
     <p align="justify">Es un commit que <strong>representa un solo cambio</strong> lógico y completo (un fix, una funcionalidad específica), en vez de mezclar varios cambios no relacionados en un mismo commit.</p>
-    <p align="justify">Facilita revisar el historial, revertir cambios puntuales y entender qué hizo cada commit sin ambiguedad.</p>
+    <p align="justify">Facilita revisar el historial, revertir cambios puntuales y entender qué hizo cada commit sin ambigüedad.</p>
 
     ```Bash
     # ❌ Un commit mezclando todo
