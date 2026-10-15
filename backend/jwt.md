@@ -18,6 +18,7 @@ JWT (JSON Web Token) es un estándar abierto (RFC 7519) para transmitir informac
 ---
 
 ## Estructura de un JWT
+- **Un JWT tiene 3 partes, separadas por puntos( . )**
 <div align="center">
   <img src="/imgs/jwt1.avif" width="600" alt="Estructura de un JWT" />
 </div>
@@ -25,6 +26,7 @@ JWT (JSON Web Token) es un estándar abierto (RFC 7519) para transmitir informac
 ---
 
 ## Claims más comunes
+Los claims en JWT (JSON Web Token) son los datos o afirmaciones que se guardan dentro del payload del token. Sirven para transportar información sobre el usuario, el emisor del token, su fecha de expiración y otros datos necesarios para la autenticación y autorización.
 - `sub` Sujeto (ID del usuario)
 - `iss` Emisor del token
 - `aud` Audiencia (quién lo recibe)
@@ -56,7 +58,7 @@ JWT (JSON Web Token) es un estándar abierto (RFC 7519) para transmitir informac
 ## Ejemplo en Node.js
 ```Bash
 // Generar un JWT
-const jwt = require('jsonok'te);
+const jwt = require('jsonwebtoken');
 
 const token = jwt.sign(
     {
@@ -91,7 +93,13 @@ console.log('Token válido:'; decoded);
 ---
 
 ## JWT vs Sesiones
-
+| ASPECTO         | JWT                    | Sesiones                    | 
+| :---:           | :---:                  | :---:                       | 
+| Estado          | Stateless (sin estado) | Stateful (con estado)       | 
+| Almacenamiento  | En el cliente (token)  | En el servidor (memoria/DB) | 
+| Escalabilidad   | Alta                   | Limitada                    | 
+| Rendimiento     | Mejor                  | Menor                       | 
+| Uso típico      | APIs, SPA, Mobile      | Apps tradicionales          |
 
 ---
 
@@ -101,3 +109,8 @@ console.log('Token válido:'; decoded);
 - Aplicaciones web SPA (Reacta, Vue, Angular)
 - Microservicios
 - Sistemas de Single Sign-On (SSO)
+
+---
+
+## En resumen
+Autenticación segura, simple y escalable para la web moderna.
