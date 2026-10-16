@@ -38,6 +38,7 @@ A structured collection of web development concepts, notes, and practical knowle
 
 ## 🎨 Frontend  
 ![Frontend](https://img.shields.io/badge/Frontend-DD0031?logo=html5&logoColor=white)
+- 📱 [Responsive Design](frontend/responsive-design.md)
 
 ---
 
