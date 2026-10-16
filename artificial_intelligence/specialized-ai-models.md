@@ -9,16 +9,16 @@ Aunque existen muchas arquitecturas de IA, en este apunte estudiaremos ocho mode
 
 ## Model Types
 
-| Model | Full Name             | Main Purpose                      |
-| :---: | :---:                 | :---:                              |
-| LLM   | Large Language Model  | Text generation and understanding |
-| LCM   | Large Concept Model   | Concept-level reasoning           |
-| LAM   | Large Action Model    | Action execution                  |
-| MoE   | Mixture of Experts    | Specialized expert routing        |
-| VLM   | Vision-Language Model | Vision + language                 |
-| SLM   | Small Language Model  | Lightweight language processing   |
-| MLM   | Masked Language Model | Predict masked tokens             |
-| SAM   | Segment Anything Model | Image segmentation               |
+| Model | Full Name              | Main Purpose                      |
+| :---: | :---:                  | :---:                             |
+| LLM   | Large Language Model   | Text generation and understanding |
+| LCM   | Large Concept Model    | Concept-level reasoning           |
+| LAM   | Large Action Model     | Action execution                  |
+| MoE   | Mixture of Experts     | Specialized expert routing        |
+| VLM   | Vision-Language Model  | Vision + language                 |
+| SLM   | Small Language Model   | Lightweight language processing   |
+| MLM   | Masked Language Model  | Predict masked tokens             |
+| SAM   | Segment Anything Model | Image segmentation                |
 
 ---
 
@@ -126,8 +126,9 @@ Un LCM busca trabajar con representaciones del significado, no solamente con sec
     3. **Reconocimiento de intención:** Determina el objetivo que se desea alcanzar a partir de la instrucción. Por ejemplo, distingue entre consultar los datos de un contacto y registrar uno nuevo.
     4. **Descommposición de tareas:** Divide el objetivo en pasos más pequeños y manejables. Para registrar un contacto, podría identificar la necesidad de abrir el formulario, completar los campos y guardar la información.
     5. **Planificación de acciones:** Organiza los pasos y determina qué acciones deben ejecutarse, en qué orden y qué herramientas o interfaces se necesitan para completar la tarea.
-    6. **istema de memoria:** Puede conservar información relevante, como el contexto de la tarea, los resultados anteriores o las preferencias necesarias para continuar el proceso.
+    6. **Sistema de memoria:** Puede conservar información relevante, como el contexto de la tarea, los resultados anteriores o las preferencias necesarias para continuar el proceso.
     7. **Cuantización:** En el diagrama, esta etapa aparece después de la planificación. Sin embargo, técnicamente la cuantización suele ser una técnica para reducir la precisión numérica de los parámetros de un modelo y disminuir su consumo de memoria o cómputo. No es una etapa universal de ejecución de acciones.
+    8. **Integración de retroalimentación:** El sistema utiliza los resultados obtenidos para comprobar si las acciones funcionaron. Si algo falla, puede ajustar el plan o intentar otra estrategia.
 
     <div align="center">
         <img src="/imgs/lam.avif" width="250" alt="Modelo LAM"/>
@@ -257,16 +258,28 @@ MoE no es necesariamente un tipo de tarea, sino una arquitectura que combina mú
 Un VLM conecta información visual con lenguaje para interpretar imágenes y responder preguntas sobre ellas.
 </details>
 
-
 ---
 
-## SLM — Small Language Model
+## SLM — Small Language Model (Modelo de Lenguaje Pequeño)
 - **¿Qué es?**
     Un SLM es un modelo de lenguaje relativamente pequeño en comparación con los grandes modelos de propósito general. Está diseñado para realizar determinadas tareas lingüísticas utilizando menos recursos computacionales, aunque su rendimiento depende del entrenamiento, la arquitectura y la tarea.
 - **¿Cómo funciona?**
+    El diagrama representa un flujo de procesamiento parecido al de un LLM, pero orientado a reducir los recursos necesarios para ejecutar el modelo.
+    1. **Procesamiento de entrada:** El modelo recibe la pregunta o instrucción y prepara el texto para su procesamiento.
+    2. **Tokenización compacta:** El texto se divide en tokens según el tokenizador del modelo. La palabra *compacta* del diagrama es ilustrativa: la tokenización no tiene que ser necesariamente más compacta en todos los SLM.
+    3. **Transformer eficiente:** Las capas neuronales procesan los tokens para interpretar el contexto y calcular las respuestas. El modelo puede utilizar una arquitectura o configuración optimizada para reducir el coste computacional.
+    4. **Cuantización del modelo:** Los parámetros pueden almacenarse con menor precisión numérica, por ejemplo, utilizando menos bits. Esto puede reducir el consumo de memoria y facilitar la ejecución en equipos con recursos limitados, con posibles compromisos de precisión.
+    5. **Optmización de memoria:** Se aplican técnicas para reducir el uso de memoria durante la carga y ejecución del modelo. Algunas optimizaciones también pueden reducir la latencia o el coste de procesamiento.
+    6. **Salida (respuesta):** El modelo genera una respuesta a partir de la entrada procesada. Puede ser texto, una clasificación o el resultado de la tarea para la que fue diseñado.
+
     <div align="center">
         <img src="/imgs/slm.avif" width="250" alt="Modelo SLM"/>
     </div>
+    
+    - **En resumen:** un SLM procesa texto y genera respuestas utilizando un modelo relativamente pequeño que puede complementarse con técnicas de optimización para ahorrar memoria y cómputo.
+
+> [!NOTE]
+> La cuantización y la optimización de memoria son técnicas opcionales; no todos los SLM las utilizan ni siguen exactamente esta secuencia.  
 
 - **Características**
     - Generalmente necesita menos memoria.
@@ -295,14 +308,27 @@ Un SLM prioriza un equilibrio entre capacidad y eficiencia. Un modelo pequeño n
 
 ---
 
-## MLM — Masked Language Model
+## MLM — Masked Language Model (Modelo de Lenguaje Enmascarado)
 - **¿Qué es?**
     Un MLM es un modelo de lenguaje entrenado para predecir tokens ocultos dentro de una secuencia de texto. Durante el entrenamiento, algunos tokens se sustituyen por una máscara o se ocultan de otra manera. El modelo aprende a reconstruirlos utilizando el contexto disponible.
 
 - **¿Cómo funciona?**
+    El diagrama representa el proceso de entrenamiento de un modelo que aprende a recuperar tokens ocultos utilizando el contexto de la secuencia completa.
+    1. **Entrada de texto:** El modelo recibe una secuencia de texto que servirá como base para aprender relaciones entre palabras y otros tokens.
+    2. **Enmascaramiento de tokens:** Durante el entrenamiento, algunos tokens se ocultan o se sustituyen por una máscara. Por ejemplo, *JavaScript es un [MASK]* oculta una palabra que el modelo debe predecir.
+    3. **Capa de embedding:** Los tokens visibles y las máscaras se convierten en representaciones numéricas. Estas representaciones sirven como entrada para las capas de la red neuronal.
+    4. **Atención bidireccional:** El modelo utiliza el contexto que aparece antes y después de cada posición para interpretar la secuencia. Esto le permite aprovechar las pistas de ambos lados del token oculto.
+    5. **Predicción de tokens enmascarados:** El modelo calcula las probabilidades de los posibles tokens que podrían ocupar las posiciones ocultas, basándose en el contexto disponible.
+    6. **Salida (tokens predichos):** Se obtienen las predicciones para los tokens ocultos. Durante el entrenamiento, estas predicciones se comparan con los tokens originales para ajustar los parámetros del modelo.
+
     <div align="center">
         <img src="/imgs/mlm.avif" width="250" alt="Modelo MLM"/>
     </div>
+
+    - **En resumen:** se ocultan algunos tokens, el modelo analiza el contexto de ambos lados y predice cuáles deberían ocupar las posiciones enmascaradas.
+
+> [!NOTE]
+> Este diagrama describe principalmente el entrenamiento de un MLM. En modelos como BERT, la salida habitual para una tarea posterior puede ser una clasificación u otra predicción, no necesariamente un texto reconstruido.
 
 - **Características**
     - Aprende a partir del contexto de una secuencia.
@@ -331,14 +357,28 @@ Un MLM aprende a predecir tokens ocultos utilizando el contexto de ambos lados. 
 
 ---
 
-## SAM — Segment Anything Model
+## SAM — Segment Anything Model (Modelo de Segmentación de Cualquier Elemento)
 - **¿Qué es?**
     SAM es un modelo de visión artificial desarrollado por Meta para segmentar objetos o regiones dentro de una imagen. La segmentación consiste en identificar qué píxeles pertenecen a un objeto o región determinada, en lugar de limitarse a clasificar la imagen completa. SAM permite orientar la segmentación mediante indicaciones, como puntos, cuadros delimitadores o máscaras, dependiendo de la versión.
 
 - **¿Cómo funciona?**
+    El diagrama muestra cómo SAM combina una imagen con una indicación para generar una máscara que delimita un objeto o una región.
+    1. **Entrada de prompt:** El usuario proporciona una indicación para señalar qué desea segmentar. Puede ser un punto, un cuadro delimitador u otra entrada compatible con la versión del modelo.
+    2. **Entrada de imagen:** Se proporciona la imagen que contiene el objeto o la región que se desea identificar.
+    3. **Codificador de prompt:** Convierte la indicación del usuario en una representación numérica que el modelo puede utilizar para determinar qué región debe segmentar.
+    4. **Codificador de imagen:** Procesa la imagen y extrae características visuales que ayudan a distinguir objetos, formas, bordes y otras estructuras.
+    5. **Generación de embeddings:** Las características de la imagen y la información de la indicación se utilizan conjuntamente para orientar la segmentación hacia el objeto solicitado.
+    6. **Decodificador de máscara:** Combina las representaciones procesadas para calcular una máscara de segmentación, identificando qué píxeles pertenecen a la región seleccionada.
+    7. **Salida (máscara de segmentación):** El modelo genera una máscara que delimita el objeto o la región identificada. Esta máscara puede utilizarse para separar objetos, editar imágenes o preparar datos para otros sistemas.
+
     <div align="center">
         <img src="/imgs/sam.avif" width="250" alt="Modelo SAM"/>
     </div>
+
+    - **En resumen:** SAM recibe una imagen y una indicación, procesa ambas y genera una máscara que identifica los píxeles correspondientes al objeto solicitado.
+
+> [!NOTE]
+> El diagrama simplifica el funcionamiento interno de SAM, los componentes exactos dependen de la versión.
 
 - **Características**
     - Segmenta regiones a nivel de píxel.
@@ -364,5 +404,35 @@ Un MLM aprende a predecir tokens ocultos utilizando el contexto de ambos lados. 
 SAM se especializa en la segmentación visual: identifica qué píxeles pertenecen a una región u objeto determinado.
 </details>
 
+---
+
+## ¿Cómo se relacionan con el desarrollo de software?
+| Proyecto                           | Modelo o enfoque útil                                             | Ejemplo de uso                                              |
+| :---:                              | :---:                                                             | :---:                                                       |
+| Chatbot para una página web        | LLM                                                               | Responder preguntas de los usuarios.                        |
+| Asistente para ejecutar tareas     | LAM o agente con herramientas                                     | Automatizar operaciones dentro de una aplicación.           |
+| Aplicación de análisis de imágenes | VLM                                                               | Describir imágenes o interpretar capturas.                  |
+| Clasificador de comentarios        | MLM o modelo de lenguaje especializado                            | Clasificar mensajes por categoría o sentimiento.            |
+| Aplicación de IA local             | SLM                                                               | Procesar textos sin depender siempre de un servicio remoto. |
+| Editor inteligente de fotografías  | SAM                                                               | Seleccionar objetos y eliminar sus fondos.                  |
+| Plataforma de análisis semántico   | LCM                                                               | Experimentar con representaciones conceptuales.             |
+| Sistema de IA de gran capacidad    | MoE                                                               | Aprovechar expertos seleccionados según la entrada.         |
+
+> [!IMPORTANT]
+> Estas son aplicaciones posibles, no correspondencias exclusivas. Un mismo proyecto puede combinar varios modelos y técnicas.
 
 ---
+
+## Diferencias importantes
+Para comprender mejor sus diferencias, conviene recordar que no todos estos modelos pertenecen a la misma categoría conceptual:
+- **LLM** y **SLM:** Se distinguen principalmente por el tamaño y los recursos necesarios, aunque no existe un límite universal que separe ambas categorías.
+- **LCM** y **MLM:** Se relacionan con formas diferentes de representar o aprender información lingüística.
+- **LAM:** Se centra en la ejecución de acciones, no solamente en producir respuestas.
+- **MoE:** Es una arquitectura que puede utilizarse dentro de modelos de lenguaje y otros sistemas.
+- **VLM** y **SAM:** Trabajan con información visual, pero tienen objetivos diferentes: relacionar imágenes con lenguaje y segmentar regiones, respectivamente.
+
+---
+
+## En resumen
+Los modelos de IA especializados representan diferentes maneras de abordar problemas computacionales. Mientras algunos se centran en el lenguaje, otros procesan conceptos, interpretan imágenes, segmentan objetos o ejecutan acciones. Por su parte, arquitecturas como MoE permiten organizar el procesamiento mediante componentes especializados.
+**La idea fundamental es que no existe un único modelo ideal para todas las tareas:** la elección depende del problema, los datos disponibles, los recursos computacionales y los requisitos de la aplicación.
