@@ -434,5 +434,7 @@ Para comprender mejor sus diferencias, conviene recordar que no todos estos mode
 ---
 
 ## En resumen
+<p align="justify">
 Los modelos de IA especializados representan diferentes maneras de abordar problemas computacionales. Mientras algunos se centran en el lenguaje, otros procesan conceptos, interpretan imágenes, segmentan objetos o ejecutan acciones. Por su parte, arquitecturas como MoE permiten organizar el procesamiento mediante componentes especializados.
-**La idea fundamental es que no existe un único modelo ideal para todas las tareas:** la elección depende del problema, los datos disponibles, los recursos computacionales y los requisitos de la aplicación.
+<strong>La idea fundamental es que no existe un único modelo ideal para todas las tareas:</strong> la elección depende del problema, los datos disponibles, los recursos computacionales y los requisitos de la aplicación.
+</p>
