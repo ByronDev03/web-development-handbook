@@ -89,6 +89,7 @@ A structured collection of web development concepts, notes, and practical knowle
 
 - 💻 [AI-Assisted Development](artificial_intelligence/ai-assisted_development.md)
 - 🧠 [Specialized AI Models](artificial_intelligence/specialized-ai-models.md)
+- 💬 [Prompt](artificial-intelligence/prompt.md)
 
 ---
 
