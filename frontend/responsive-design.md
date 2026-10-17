@@ -9,13 +9,16 @@ Diseña una sola vez, adapta tu sitio a cualquier dispositivo.
 ## ¿Qué es?
 Es una técnica que permite que todo sitio web se vea y funcione bien en cualquier dispositivo: computadoras, tablets y smartphones.
 
+<div align="center">
+    <img src="/imgs/responsive-design1.avif" width="600" alt="Ejemplo práctico de Responsive Design"/>
+</div>
 ---
 
 ## ¿Cómo funciona?
 Usa CSS para detectar el tamaño de la pantalla y aplicar estilos diferentes según el dispositivo.
 
 <div align="center">
-    <img src="/imgs/responsive-design1.avif" width="600" alt="Funcionamiento de Responsive Design"/>
+    <img src="/imgs/responsive-design2.avif" width="600" alt="Funcionamiento de Responsive Design"/>
 </div>
 
 > [!NOTE]
@@ -77,7 +80,7 @@ Se recomienda usar unidades relativas para que los elementos se adapten al tama�
 ## 4. Ejemplo práctico
 Navegación que cambia según el dispositivo.
 <div align="center">
-    <img src="/imgs/responsive-design2.avif" width="600" alt="Ejemplo práctico de Responsive Design"/>
+    <img src="/imgs/responsive-design3.avif" width="600" alt="Ejemplo práctico de Responsive Design"/>
 </div>
 
 - **HTML**
@@ -123,3 +126,25 @@ Navegación que cambia según el dispositivo.
 ```
 
 ---
+
+## Buenas prácticas
+- ✅ Diseñar mobile-first (empezar por móviles).
+- ✅ Usar breakpoints comunes (576px, 768px, 992px, 1200px).
+- ✅ Usar imágenes y videos fluidos.
+- ✅ Pruebas en diferentes dispositivos y navegadores.
+- ✅ Mantén tu diseño simple y consistente.
+
+---
+
+## Breakpoints comunes
+| Dispositivo        | Ancho de pantalla |
+|--------------------|-------------------|
+| Móvil              | ≤ 576px           |
+| Tablet             | 577px - 992px     |
+| Escritorio         | ≥ 993px           |
+| Escritorio Grande  | ≥ 1200px          |
+
+---
+
+## En resumen
+El objetivo del Responsive Design es ofrecer la mejor experiencia de usuario posible, sin importar el dispositivo.
