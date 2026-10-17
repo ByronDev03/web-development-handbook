@@ -10,7 +10,7 @@ Diseña una sola vez, adapta tu sitio a cualquier dispositivo.
 Es una técnica que permite que todo sitio web se vea y funcione bien en cualquier dispositivo: computadoras, tablets y smartphones.
 
 <div align="center">
-    <img src="/imgs/responsive-design1.avif" width="600" alt="Ejemplo práctico de Responsive Design"/>
+    <img src="/imgs/responsive-design1.avif" width="600" alt="Dispositivos"/>
 </div>
 ---
 
