@@ -12,6 +12,7 @@ Es una técnica que permite que todo sitio web se vea y funcione bien en cualqui
 <div align="center">
     <img src="/imgs/responsive-design1.avif" width="600" alt="Dispositivos"/>
 </div>
+
 ---
 
 ## ¿Cómo funciona?
