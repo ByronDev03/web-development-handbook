@@ -14,6 +14,6 @@
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" width="60"/>| Java Development Kit | [Download](https://www.oracle.com/mx/java/technologies/downloads) |
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" width="85"/> | Python | [Download](https://www.python.org/downloads) |
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg" width="60"/> | Angular CLI |    |
-| ![alt text](/imgs/npm.png)              | npm                     |                                                        | 
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" width="85"/> | npm |                                                        | 
 | <img src="https://cdn.simpleicons.org/node.js" width="60"/> | Node.js |                                                        |
 | ![alt text](/imgs/nvm.png)              | nvm                     |                                                        |
