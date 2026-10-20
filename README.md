@@ -25,7 +25,10 @@ A structured collection of web development concepts, notes, and practical knowle
 
 - <img src="https://cdn.simpleicons.org/node.js" width="16"/> [Node.js](backend/node.js.md)
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" width="16"/> [npm](backend/npm.md)  
-- <img src="https://cdn.simpleicons.org/jsonwebtokens/ffffff" width="16" /> [JWT](backend/jwt.md)    
+- <img src="https://cdn.simpleicons.org/jsonwebtokens/ffffff" width="16" /> [JWT](backend/jwt.md) 
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" width="20"/> [PHP](backend/php.md)  
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" width="20"/> [Firebase](backend/firebase.md)
+                      
 - 📍[Endpoint](backend/endpoint.md) 
 - 🔌 [API](backend/api.md) 
 - 🧩 [ORM](backend/orm.md)
@@ -33,12 +36,20 @@ A structured collection of web development concepts, notes, and practical knowle
 - 🗄️ [Databases](backend)
     - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="16"/> [PostgreSQL](backend/postgresql.md)
     - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" width="16"/> [MongoDB](backend/mongodb.md)
+    - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" width="20"/> [Redis](backend/redis.md)
+          
           
 ---
 
 ## 🎨 Frontend  
 ![Frontend](https://img.shields.io/badge/Frontend-DD0031?logo=html5&logoColor=white)
-- 📱 [Responsive Design](frontend/responsive-design.md)
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain-wordmark.svg" width="20"/> [HTML5](frontend/html.md)
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain-wordmark.svg" width="20"/> [CSS3](frontend/css.md)      
+    - 📱 [Responsive Design](frontend/responsive-design.md)
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" width="20"/> [React](frontend/react.md)
+    - 🪝 [Hooks](frontend/hooks.md)
+    - 🌳 [Virtual DOM](frontend/virtual-dom.md)
+          
 
 ---
 
