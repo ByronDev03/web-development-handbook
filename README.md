@@ -27,8 +27,7 @@ A structured collection of web development concepts, notes, and practical knowle
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" width="16"/> [npm](backend/npm.md)  
 - <img src="https://cdn.simpleicons.org/jsonwebtokens/ffffff" width="16" /> [JWT](backend/jwt.md) 
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" width="20"/> [PHP](backend/php.md)  
-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" width="20"/> [Firebase](backend/firebase.md)
-                      
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" width="20"/> [Firebase](backend/firebase.md)            
 - 📍[Endpoint](backend/endpoint.md) 
 - 🔌 [API](backend/api.md) 
 - 🧩 [ORM](backend/orm.md)
