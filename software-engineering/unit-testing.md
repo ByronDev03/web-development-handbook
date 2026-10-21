@@ -96,7 +96,7 @@ Es una prueba automática que verifica que una **unidad pequeña** de **código*
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitest/vitest-original.svg" alt="Vitest" width="28"/> Vitest
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mocha/mocha-original.svg" alt="Mocha" width="28"/> Mocha
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jasmine/jasmine-original.svg" alt="Jasmine" width="28"/> Jasmine
-- <img src="https://testing-library.com/img/octopus-64x64.png" alt="Testing Library" width="28" /> Testing Library
+- <img src="https://testing-library.com/img/octopus-64x64.png" alt="Testing Library" width="28"/> Testing Library
 
 ---
 

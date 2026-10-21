@@ -36,8 +36,7 @@ A structured collection of web development concepts, notes, and practical knowle
     - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" width="16"/> [PostgreSQL](backend/postgresql.md)
     - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" width="16"/> [MongoDB](backend/mongodb.md)
     - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" width="20"/> [Redis](backend/redis.md)
-          
-          
+  
 ---
 
 ## 🎨 Frontend  
@@ -49,7 +48,6 @@ A structured collection of web development concepts, notes, and practical knowle
     - 🪝 [Hooks](frontend/hooks.md)
     - 🌳 [Virtual DOM](frontend/virtual-dom.md)
           
-
 ---
 
 ## 🧠 Software Engineering
@@ -66,7 +64,6 @@ A structured collection of web development concepts, notes, and practical knowle
 - <img src="https://cdn.simpleicons.org/google" width="16"/> [SEO](marketing/seo.md)
 - <img src="https://cdn.simpleicons.org/googleads" width="16"/> [SEM](marketing/sem.md)
 - 🤖 [robots.txt](marketing/robotstxt.md)
-
 
 ---
 
