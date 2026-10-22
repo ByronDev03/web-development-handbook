@@ -80,9 +80,20 @@ Es una plataforma web para alojar proyectos que usan Git. Permite colaborar con 
 ## Archivo README.md
 Es la tarjeta de presentación de todo proyecto.<br>
 Explica de qué trata y cómo usarlo.
-<div align="center">
-  <img src="/imgs/readme.avif" width="600" alt="README" />
-</div>
+```readme
+# Mi Proyecto
+
+Descripción breve del proyecto.
+
+## Características
+- Dark Mode  
+- Drag & Drop
+
+## Instalación
+npm install
+npm start
+
+```
 
 ---
 
