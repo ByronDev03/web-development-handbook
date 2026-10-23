@@ -106,7 +106,8 @@ A structured collection of web development concepts, notes, and practical knowle
 
 - <img src="https://cdn.simpleicons.org/github/ffffff" width="16"/> [GitHub](tools/github.md)
 - <img src="https://cdn.simpleicons.org/git" width="16"/> [Git](tools/git.md)
-    - 📝[Conventional Commits](https://www.conventionalcommits.org/es/v1.0.0/) — Tutorial
+    - 🧾 [Git Commands Cheat Sheet](tools/git-commands-cheat-sheet.md)
+    - 📝 [Conventional Commits](https://www.conventionalcommits.org/es/v1.0.0/) — Tutorial
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" width="16"/> [VS Code Extensions](tools/vscode-extensions.md)
 - 🛠️ [Development Tools](tools/dev-tools.md)
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg" width="16"/> [Angular Environment Setup](tools/angular-setup.md)
