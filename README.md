@@ -123,6 +123,7 @@ A structured collection of web development concepts, notes, and practical knowle
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg" width="16"/> [Angular Interview Questions](interview/angular-interview.md)
 - <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" width="16"/> [SQL Interview Questions](interview/sql-interview.md)
 - <img src="https://cdn.simpleicons.org/git" width="16"/> [Git Interview Questions](interview/git-interview.md)
+- <img src="https://cdn.simpleicons.org/docker" width="16"/> [Docker Interview Questions](interview/docker-interview.md)
 - 👨🏻‍💻 [Web Development Questions](interview/web-development-questions.md)
 
 ---
