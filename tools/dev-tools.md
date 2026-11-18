@@ -17,3 +17,4 @@
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg" width="60"/> | Angular CLI | `npm install -g @angular/cli` |
 | <img src="https://cdn.simpleicons.org/node.js" width="60"/> | Node.js | `nvm list available` <br> `nvm install <versión>` |
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" width="85"/> | npm | `npm -v` <br> **(Se instala junto con Node.js)** | 
+| <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pnpm/pnpm-original-wordmark.svg" width="85"/> | pnpm | `npm install --global pnpm` |   
